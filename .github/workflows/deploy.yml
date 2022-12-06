@@ -42,9 +42,7 @@ jobs:
         echo $PWD
         ls 
         cd ..
-        echo $PWD
-        ls
-        cd Thirdparty\ Frameworks
+        cd BuildAutomate/Thirdparty\ Frameworks
         ls
     - name: Install gpg
       run: brew install gnupg
