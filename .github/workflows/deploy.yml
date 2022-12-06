@@ -24,7 +24,7 @@ jobs:
     - name: Install Dependencies
       #if: steps.cocoapods-cache.outputs.cache-hit != 'true'
       run: |
-        cd BuildAutomate
+        #cd BuildAutomate
         pod install --repo-update
 
       shell: bash
