@@ -42,6 +42,7 @@ jobs:
         echo $PWD
         ls 
         cd ..
+        echo $PWD
         ls
     - name: Install gpg
       run: brew install gnupg
