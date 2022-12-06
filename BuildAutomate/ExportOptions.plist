@@ -18,8 +18,6 @@
 	<true/>
 	<key>uploadSymbols</key>
 	<true/>
-	<key>allowProvisioningUpdates</key>
-	<true/>
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>com.banking.FedMobile.RichNotificationService</key>
