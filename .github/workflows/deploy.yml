@@ -36,14 +36,7 @@ jobs:
           path: Thirdparty\ Frameworks 
           ref: UAT_13_temp
           token: ${{ secrets.PAT }}
-    - name: Print
-      run: |
-        
-        echo $PWD
-        ls 
-        cd ..
-        cd BuildAutomate/Thirdparty\ Frameworks
-        ls
+
     - name: Install gpg
       run: brew install gnupg
     - name: Giving permission to shell files
