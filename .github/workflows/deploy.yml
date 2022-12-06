@@ -38,6 +38,7 @@ jobs:
     - name: Print
       run: |
         echo $PWD
+        cd Thirdparty\ Frameworks
         ls 
     - name: Install gpg
       run: brew install gnupg
