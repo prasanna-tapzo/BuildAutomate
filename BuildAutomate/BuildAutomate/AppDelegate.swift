@@ -7,7 +7,7 @@
 
 import UIKit
 //app password //reaw-zwci-mmfj-xvqf
-// github token - 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
+// github token - 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
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
