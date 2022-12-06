@@ -28,6 +28,12 @@ jobs:
         pod install --repo-update
 
       shell: bash
+    - name: Clone framewrok repo
+      uses: actions/checkout@v2
+      with:
+          repository: CDNA-Technologies/nuclei-federal-ios-frameworks
+          path: ThirdParty/frameworks
+          ref: UAT_13
     - name: Install gpg
       run: brew install gnupg
     - name: Giving permission to shell files
