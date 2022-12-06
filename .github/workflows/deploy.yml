@@ -34,7 +34,7 @@ jobs:
           repository: CDNA-Technologies/nuclei-federal-ios-frameworks
           path: $PWD/Thirdparty\ Frameworks
           ref: UAT_13_temp
-          #token: ${{ secrets.PAT }}
+          token: ${{ secrets.PAT }}
     - name: Print
       run: |
           echo $PWD/Thirdparty\ Frameworks
