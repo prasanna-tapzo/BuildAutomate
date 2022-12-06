@@ -829,9 +829,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Z65RY352B5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BuildAutomate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -848,7 +849,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.banking.FedMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "FedMobileDC-Dev";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -862,9 +863,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Z65RY352B5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BuildAutomate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -881,7 +883,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.banking.FedMobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "FedMobileDC-Dev";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -972,9 +974,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E1B8834BF1114B7413105495 /* Pods-RichNotificationService.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Z65RY352B5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RichNotificationService/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = RichNotificationService;
@@ -987,7 +990,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.banking.FedMobile.RichNotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "RichNotificationService-Dev";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -999,9 +1002,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B7BFA52CF8A6C824B036D168 /* Pods-RichNotificationService.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Z65RY352B5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RichNotificationService/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = RichNotificationService;
@@ -1014,7 +1018,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.banking.FedMobile.RichNotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = RichNotificationService;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1026,9 +1030,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9022BD1374C789132C6E98CD /* Pods-NotificationContentExtension.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Z65RY352B5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NotificationContentExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = NotificationContentExtension;
@@ -1053,9 +1058,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CEEBE65EF0D00E5C736E4C67 /* Pods-NotificationContentExtension.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Z65RY352B5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NotificationContentExtension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = NotificationContentExtension;
