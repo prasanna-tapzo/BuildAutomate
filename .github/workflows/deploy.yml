@@ -32,7 +32,7 @@ jobs:
       uses: actions/checkout@v2
       with:
           repository: CDNA-Technologies/nuclei-federal-ios-frameworks
-          path: BuildAutomate/Thirdparty\ Frameworks
+          path: BuildAutomate/Thirdparty\ Frameworks 
           ref: UAT_13_temp
           token: ${{ secrets.PAT }}
     - name: Print
