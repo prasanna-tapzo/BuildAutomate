@@ -22,7 +22,7 @@ jobs:
           restore-keys: |
               ${{ runner.os }}-pods-
     - name: Install Dependencies
-      #if: steps.cocoapods-cache.outputs.cache-hit != 'true'
+      if: steps.cocoapods-cache.outputs.cache-hit != 'true'
       run: |
         cd BuildAutomate
         pod install --repo-update
@@ -40,10 +40,11 @@ jobs:
           token: ${{ secrets.PAT }}
     - name: Print
       run: |
-        cd BuildAutomate/BuildAutomate/Thirdparty\ Frameworks
-        echo $PWD
         
+        echo $PWD
         ls 
+        cd Thirdparty\ Frameworks
+        ls
     - name: Install gpg
       run: brew install gnupg
     - name: Giving permission to shell files
