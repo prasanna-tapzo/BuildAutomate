@@ -36,6 +36,7 @@ jobs:
           ref: UAT_13
           token: ${{ secrets.PAT }}
     - name: Print
+      run: |
           echo $PWD
     - name: Install gpg
       run: brew install gnupg
