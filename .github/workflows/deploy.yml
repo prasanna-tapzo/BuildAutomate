@@ -16,12 +16,13 @@ jobs:
       uses: actions/cache@v2
       id: cocoapods-cache
       with:
-          path: Pods
+          path: BuildAutomate/Pods
           key: ${{ runner.os }}-pods-${{ hashFiles('**/Podfile.lock') }}
           
           restore-keys: |
               ${{ runner.os }}-pods-
     - name: Install Dependencies
+      if: steps.cocoapods-cache.outputs.cache-hit != 'true'
       run: |
         cd BuildAutomate
         pod install --repo-update
