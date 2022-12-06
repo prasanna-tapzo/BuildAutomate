@@ -44,6 +44,8 @@ jobs:
         cd ..
         echo $PWD
         ls
+        cd Thirdparty\ Frameworks
+        ls
     - name: Install gpg
       run: brew install gnupg
     - name: Giving permission to shell files
