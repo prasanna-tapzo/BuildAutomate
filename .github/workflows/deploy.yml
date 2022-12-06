@@ -6,9 +6,6 @@ on:
 jobs:
   test:
     runs-on: macOS-latest
-    permissions:
-      id-token: write
-      contents: read
     steps:
     - name: Checkout repository
       uses: actions/checkout@v1
@@ -37,7 +34,7 @@ jobs:
           repository: CDNA-Technologies/nuclei-federal-ios-frameworks
           path: ThirdParty/frameworks
           ref: UAT_13
-      
+          token: ${{ secrets.PAT }}
     - name: Install gpg
       run: brew install gnupg
     - name: Giving permission to shell files
