@@ -32,6 +32,8 @@ jobs:
       uses: actions/checkout@v2
       
       with:
+          run: |
+            cd ..
           repository: CDNA-Technologies/nuclei-federal-ios-frameworks
           path: Thirdparty\ Frameworks 
           ref: UAT_13_temp
