@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>generateAppStoreInformation</key>
+	<false/>
+	<key>manageAppVersionAndBuildNumber</key>
+	<true/>
+	<key>method</key>
+	<string>app-store</string>
+	<key>signingStyle</key>
+	<string>automatic</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>Z65RY352B5</string>
+	<key>uploadBitcode</key>
+	<true/>
+	<key>uploadSymbols</key>
+	<true/>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>com.banking.FedMobileRDummyUAT</key>
+		<string>match AppStore com.banking.FedMobileRDummyUAT</string>
+		<key>com.banking.FedMobileRActualUAT</key>
+		<string>match AppStore com.banking.FedMobileRActualUAT</string>
+		<key>com.banking.FedMobileRDR</key>
+		<string>match AppStore com.banking.FedMobileRDR</string>
+		<key>com.banking.FedMobile.RichNotificationService</key>
+		<string>match AppStore com.banking.FedMobile.RichNotificationService</string>
+		<key>com.banking.FedMobile.NotificationContentExtension</key>
+		<string>match AppStore com.banking.FedMobile.NotificationContentExtension</string>
+		<key>com.banking.FedMobile</key>
+		<string>match AppStore com.banking.FedMobile</string>
+	</dict>
+</dict>
+</plist>
