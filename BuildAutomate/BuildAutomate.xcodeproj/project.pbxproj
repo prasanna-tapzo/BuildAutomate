@@ -182,6 +182,7 @@
 		7D362FE3293C3F66003E7167 = {
 			isa = PBXGroup;
 			children = (
+				7DA24377293FD4C70048A7AA /* Thirdparty Frameworks */,
 				7D362FEE293C3F66003E7167 /* BuildAutomate */,
 				7D363005293C3F67003E7167 /* BuildAutomateTests */,
 				7D36300F293C3F67003E7167 /* BuildAutomateUITests */,
@@ -234,6 +235,13 @@
 				7D363012293C3F67003E7167 /* BuildAutomateUITestsLaunchTests.swift */,
 			);
 			path = BuildAutomateUITests;
+			sourceTree = "<group>";
+		};
+		7DA24377293FD4C70048A7AA /* Thirdparty Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Thirdparty Frameworks";
 			sourceTree = "<group>";
 		};
 		7DD1B709293E2DD7003E2827 /* RichNotificationService */ = {
