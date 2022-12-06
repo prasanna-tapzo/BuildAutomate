@@ -37,7 +37,8 @@ jobs:
           token: ${{ secrets.PAT }}
     - name: Print
       run: |
-          echo $PWD
+          - echo $PWD
+          - ls
     - name: Install gpg
       run: brew install gnupg
     - name: Giving permission to shell files
