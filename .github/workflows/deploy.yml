@@ -24,13 +24,16 @@ jobs:
     - name: Install Dependencies
       #if: steps.cocoapods-cache.outputs.cache-hit != 'true'
       run: |
-        #cd BuildAutomate
+        cd BuildAutomate
         pod install --repo-update
 
       shell: bash
     - name: Clone framewrok repo
       uses: actions/checkout@v2
+      
       with:
+          run: |
+            cd BuildAutomate
           repository: CDNA-Technologies/nuclei-federal-ios-frameworks
           path: Thirdparty\ Frameworks 
           ref: UAT_13_temp
