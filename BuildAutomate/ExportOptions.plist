@@ -27,7 +27,7 @@
 		<key>com.banking.FedMobile.NotificationContentExtension</key>
 		<string>Notification Content Extension Distribution 2022</string>
 		<key>com.banking.FedMobile</key>
-		<string>FedMobile DC</string>
+		<string>FedMobileDC</string>
 	</dict>
 </dict>
 </plist>
