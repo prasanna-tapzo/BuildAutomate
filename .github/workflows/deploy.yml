@@ -37,6 +37,7 @@ jobs:
           token: ${{ secrets.PAT }}
     - name: Print
       run: |
+          echo $PWD/Thirdparty\ Frameworks
           cd $PWD/Thirdparty\ Frameworks
           ls
     - name: Install gpg
