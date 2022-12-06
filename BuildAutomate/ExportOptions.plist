@@ -20,18 +20,12 @@
 	<true/>
 	<key>provisioningProfiles</key>
 	<dict>
-		<key>com.banking.FedMobileRDummyUAT</key>
-		<string>match AppStore com.banking.FedMobileRDummyUAT</string>
-		<key>com.banking.FedMobileRActualUAT</key>
-		<string>match AppStore com.banking.FedMobileRActualUAT</string>
-		<key>com.banking.FedMobileRDR</key>
-		<string>match AppStore com.banking.FedMobileRDR</string>
 		<key>com.banking.FedMobile.RichNotificationService</key>
-		<string>match AppStore com.banking.FedMobile.RichNotificationService</string>
+		<string>RichNotificationService</string>
 		<key>com.banking.FedMobile.NotificationContentExtension</key>
-		<string>match AppStore com.banking.FedMobile.NotificationContentExtension</string>
+		<string>Notification Content Extension Distribution 2022</string>
 		<key>com.banking.FedMobile</key>
-		<string>match AppStore com.banking.FedMobile</string>
+		<string>FedMobile DC</string>
 	</dict>
 </dict>
 </plist>
