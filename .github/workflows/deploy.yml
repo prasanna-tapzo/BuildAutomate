@@ -30,15 +30,20 @@ jobs:
       shell: bash
     - name: Clone framewrok repo
       uses: actions/checkout@v2
+      
       with:
           repository: CDNA-Technologies/nuclei-federal-ios-frameworks
-          path: $PWD/BuildAutomate/Thirdparty\ Frameworks
+          path: Thirdparty\ Frameworks 
           ref: UAT_13_temp
           token: ${{ secrets.PAT }}
     - name: Print
       run: |
-        cd $PWD/BuildAutomate
+        
+        echo $PWD
         ls 
+        cd ..
+        cd BuildAutomate/Thirdparty\ Frameworks
+        ls
     - name: Install gpg
       run: brew install gnupg
     - name: Giving permission to shell files
