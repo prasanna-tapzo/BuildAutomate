@@ -37,7 +37,7 @@ jobs:
           token: ${{ secrets.PAT }}
     - name: Print
       run: |
-        cd $PWD/BuildAutomate/Thirdparty\ Frameworks
+        cd Thirdparty\ Frameworks
         ls 
     - name: Install gpg
       run: brew install gnupg
