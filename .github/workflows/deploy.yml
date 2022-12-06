@@ -22,7 +22,7 @@ jobs:
           restore-keys: |
               ${{ runner.os }}-pods-
     - name: Install Dependencies
-      if: steps.cocoapods-cache.outputs.cache-hit != 'true'
+      #if: steps.cocoapods-cache.outputs.cache-hit != 'true'
       run: |
         cd BuildAutomate
         pod install --repo-update
