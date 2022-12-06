@@ -1058,7 +1058,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CEEBE65EF0D00E5C736E4C67 /* Pods-NotificationContentExtension.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z65RY352B5;
@@ -1074,7 +1074,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.banking.FedMobile.NotificationContentExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Notification_Content_Extension_Distribution_2022-D";
+				PROVISIONING_PROFILE_SPECIFIER = "Notification Content Extension Distribution 2022";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
