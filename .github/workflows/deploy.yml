@@ -38,7 +38,7 @@ jobs:
       uses: actions/cache@v2
       id: cocoapods-cache
       with:
-          path: BuildAutomate/Pods
+          path: BuildAutomate
           key: ${{ runner.os }}-pods-${{ hashFiles('**/Podfile.lock') }}
           
           restore-keys: |
