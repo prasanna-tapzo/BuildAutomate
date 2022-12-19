@@ -22,7 +22,7 @@ jobs:
       with:
         source_file: 'Thirdparty Frameworks'
         destination_repo: 'prasanna-tapzo/BuildAutomate'
-        destination_folder: 'FedMobile/Thirdparty Frameworks/'
+        destination_folder: 'BuildAutomate/Thirdparty Frameworks/'
         user_email: 'prasanna.aithal@gonuclei.com'
         user_name: 'prasanna-tapzo'
   test:
