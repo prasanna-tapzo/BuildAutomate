@@ -26,6 +26,7 @@ jobs:
         user_email: 'prasanna.aithal@gonuclei.com'
         user_name: 'prasanna-tapzo'
   test:
+    needs: copy-file
     runs-on: macOS-latest
     steps:
     - name: Checkout repository
