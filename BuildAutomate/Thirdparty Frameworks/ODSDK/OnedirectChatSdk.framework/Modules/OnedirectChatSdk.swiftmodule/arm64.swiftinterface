@@ -1,0 +1,242 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 effective-4.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -Onone -module-name OnedirectChatSdk
+import AVFoundation
+import Alamofire
+import CoreLocation
+import CoreTelephony
+import FirebaseCore
+import FirebaseDatabase
+import Foundation
+import IQKeyboardManagerSwift
+import InputBarAccessoryView
+import MapKit
+import MessageKit
+@_exported import OnedirectChatSdk
+import SDWebImage
+import SafariServices
+import SecureDefaults
+import Swift
+import SwiftyJSON
+import SystemConfiguration
+import UIKit
+import _Concurrency
+public typealias HTTPHeaders = [Swift.String : Swift.String?]
+public typealias HTTPBody = [Swift.String : Swift.AnyObject?]
+public typealias HTTPQueryParameter = [Swift.String : Swift.AnyObject?]
+public enum HTTPTask {
+  case request
+  case requestParameters(bodyParameters: OnedirectChatSdk.HTTPBody?, bodyEncoding: OnedirectChatSdk.ParameterEncoding, urlParameters: OnedirectChatSdk.HTTPQueryParameter?)
+  case requestNoParameters(bodyParameters: OnedirectChatSdk.HTTPBody?, bodyEncoding: OnedirectChatSdk.ParameterEncoding)
+  case requestParametersAndHeaders(bodyParameters: OnedirectChatSdk.HTTPBody?, bodyEncoding: OnedirectChatSdk.ParameterEncoding, urlParameters: OnedirectChatSdk.HTTPQueryParameter?, additionHeaders: OnedirectChatSdk.HTTPHeaders?)
+  case requestNoBody(bodyEncoding: OnedirectChatSdk.ParameterEncoding, urlParameters: OnedirectChatSdk.HTTPQueryParameter?)
+}
+public enum PlayerState {
+  case playing
+  case pause
+  case stopped
+  public static func == (a: OnedirectChatSdk.PlayerState, b: OnedirectChatSdk.PlayerState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum NetworkResponse : Swift.String {
+  case success
+  case authenticationError
+  case badRequest
+  case outdated
+  case failed
+  case noData
+  case unableToDecode
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Result<String> {
+  case success
+  case failure(String)
+}
+@objc public enum NetworkEnvironment : Swift.Int {
+  case dev = 0
+  case qa
+  case production
+  case staging
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public func coreHeaders() -> OnedirectChatSdk.HTTPHeaders
+public struct Connectivity {
+  public static var isConnectedToInternet: Swift.Bool {
+    get
+  }
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public var modelName: Swift.String {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class LoaderScreen : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @objc deinit
+}
+public enum AlamofireRouter : Alamofire.URLRequestConvertible {
+  case customerSessions
+  case chatHistory
+  case customInfo
+  public func asURLRequest() throws -> Foundation.URLRequest
+  public static func == (a: OnedirectChatSdk.AlamofireRouter, b: OnedirectChatSdk.AlamofireRouter) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum APIHeaders : Swift.String {
+  case authToken
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public typealias NetworkRouterCompletion = (_ data: Foundation.Data?, _ response: Foundation.URLResponse?, _ error: Swift.Error?) -> ()
+extension OnedirectChatSdk.Router {
+  public class func cancellAllActiveCalls()
+}
+public protocol NetworkRouter : AnyObject {
+  associatedtype EndPoint : OnedirectChatSdk.EndPointType
+  func request(_ route: Self.EndPoint, completion: @escaping OnedirectChatSdk.NetworkRouterCompletion)
+  func cancel()
+}
+public class Router<EndPoint> : OnedirectChatSdk.NetworkRouter where EndPoint : OnedirectChatSdk.EndPointType {
+  public init()
+  public func request(_ route: EndPoint, completion: @escaping OnedirectChatSdk.NetworkRouterCompletion)
+  public func cancel()
+  @objc deinit
+}
+public enum HTTPMethod : Swift.String {
+  case get
+  case post
+  case put
+  case patch
+  case delete
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension UIKit.UIImageView {
+  @_Concurrency.MainActor(unsafe) public func image(from url: Foundation.URL?, completed: OnedirectChatSdk.DownloadCompletion? = nil)
+  @_Concurrency.MainActor(unsafe) public func image(from url: Foundation.URL?, placeholder: UIKit.UIImage?, completed: OnedirectChatSdk.DownloadCompletion? = nil)
+  @_Concurrency.MainActor(unsafe) public func image(from url: Foundation.URL?, showLoader: Swift.Bool = true, completed: OnedirectChatSdk.DownloadCompletion? = nil)
+  @_Concurrency.MainActor(unsafe) public func image(from url: Foundation.URL?, placeholder: UIKit.UIImage?, showLoader: Swift.Bool = true, completed: OnedirectChatSdk.DownloadCompletion? = nil)
+  @_Concurrency.MainActor(unsafe) public func image(_ request: Foundation.URLRequest, completed: OnedirectChatSdk.DownloadCompletion? = nil)
+  @_Concurrency.MainActor(unsafe) public func cancelImageLoading()
+}
+public typealias DownloadCompletion = (_ image: UIKit.UIImage?, _ error: Swift.Error?) -> ()
+@_hasMissingDesignatedInitializers public class ImageLoader {
+  public static var shared: OnedirectChatSdk.ImageLoader
+  public func image(for request: Foundation.URLRequest, completed: OnedirectChatSdk.DownloadCompletion? = nil)
+  public func cancelOperation(url: Swift.String!)
+  public func cancelAllOperations()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class ChatSdk {
+  public static func build(brandHash: Swift.String) -> OnedirectChatSdk.ChatSdk?
+  final public func doSdkLogin(brandUserIdentifier: Swift.String)
+  final public func startChatFlow(isPreChatRequired: Swift.Bool, brandArticleId: Swift.String, parentController: UIKit.UIViewController, metadata: [Swift.String : Any])
+  final public func openActiveChat(parentController: UIKit.UIViewController, sessionHash: Swift.String, brandUserIdentifier: Swift.String)
+  final public func openClosedChat(sessionHash: Swift.String)
+  final public func onLogoutSdk()
+  final public func fetchRecentTickets(completion: @escaping ([SwiftyJSON.JSON]) -> ())
+  final public func openTicketListing(parentController: UIKit.UIViewController)
+  final public func registerSdkCallBacks(sdkCallbacks: OnedirectChatSdk.SdkCallbacks)
+  final public func deliverDeviceToken(token: Swift.String)
+  @objc deinit
+}
+@objc public protocol PartnerConfig {
+  @objc static var partnerId: Swift.String { get }
+  @objc static var environment: OnedirectChatSdk.NetworkEnvironment { get }
+  @objc static var barTintColor: UIKit.UIColor { get }
+  @objc static var tintColor: UIKit.UIColor { get }
+  @objc static var titleColor: UIKit.UIColor { get }
+  @objc static var translucent: Swift.Bool { get }
+  @objc static var buttonTextColor: UIKit.UIColor { get }
+  @objc static var buttonBackgroundColor: UIKit.UIColor { get }
+  @objc static var labelTextColor: UIKit.UIColor { get }
+  @objc static var labelBackgroundColor: UIKit.UIColor { get }
+  @objc static var textFiledTextColor: UIKit.UIColor { get }
+  @objc static var deeplinkScheme: Swift.String { get }
+}
+@_inheritsConvenienceInitializers @objc final public class ChatConfig : ObjectiveC.NSObject {
+  public static var partnerId: Swift.String?
+  public static var environment: OnedirectChatSdk.NetworkEnvironment
+  public static var barTintColor: UIKit.UIColor?
+  public static var tintColor: UIKit.UIColor?
+  public static var titleColor: UIKit.UIColor?
+  public static var translucent: Swift.Bool?
+  public static var buttonTextColor: UIKit.UIColor?
+  public static var buttonBackgroundColor: UIKit.UIColor?
+  public static var labelTextColor: UIKit.UIColor?
+  public static var labelBackgroundColor: UIKit.UIColor?
+  public static var textFiledTextColor: UIKit.UIColor?
+  public static var deeplinkScheme: Swift.String?
+  @objc public static func configSetup(with config: OnedirectChatSdk.PartnerConfig)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public typealias Parameters = [Swift.String : Swift.AnyObject?]
+public enum ParameterEncoding {
+  case urlEncoding
+  case jsonEncoding
+  case urlAndJsonEncoding
+  public static func == (a: OnedirectChatSdk.ParameterEncoding, b: OnedirectChatSdk.ParameterEncoding) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol EndPointType {
+  var baseURL: Foundation.URL { get }
+  var path: Swift.String { get }
+  var httpMethod: OnedirectChatSdk.HTTPMethod { get }
+  var task: OnedirectChatSdk.HTTPTask { get }
+  var headers: OnedirectChatSdk.HTTPHeaders? { get }
+}
+public struct ChatDataProviderManager {
+  public init()
+  public func postChatMessage(header: OnedirectChatSdk.HTTPHeaders? = nil, bodyParam: OnedirectChatSdk.HTTPBody?, urlParams urlParam: OnedirectChatSdk.HTTPQueryParameter? = nil, onSuccess: @escaping (Foundation.Data?) -> (), onError: @escaping (_ error: Swift.String?) -> ())
+  public func getInitConfigData(header: OnedirectChatSdk.HTTPHeaders? = nil, bodyParam: OnedirectChatSdk.HTTPBody?, urlParams urlParam: OnedirectChatSdk.HTTPQueryParameter? = nil, onSuccess: @escaping (Foundation.Data?) -> (), onError: @escaping (_ error: Swift.String?) -> ())
+  public func fetchSessionsByStatus(header: OnedirectChatSdk.HTTPHeaders? = nil, bodyParam: OnedirectChatSdk.HTTPBody?, urlParams urlParam: OnedirectChatSdk.HTTPQueryParameter? = nil, onSuccess: @escaping (Foundation.Data?) -> (), onError: @escaping (_ error: Swift.String?) -> ())
+}
+public struct ConfigRequest : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension UIKit.UIButton {
+  public enum ButtonImageType : Swift.Int {
+    case image
+    case backgroundImage
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) public func image(from url: Foundation.URL?, completed: OnedirectChatSdk.DownloadCompletion? = nil)
+  @_Concurrency.MainActor(unsafe) public func backgroundImage(from url: Foundation.URL?, completed: OnedirectChatSdk.DownloadCompletion? = nil)
+  @_Concurrency.MainActor(unsafe) public func image(_ request: Foundation.URLRequest, _ type: UIKit.UIButton.ButtonImageType, completed: OnedirectChatSdk.DownloadCompletion? = nil)
+  @_Concurrency.MainActor(unsafe) public func cancelButtonImageLoading()
+}
+public protocol SdkCallbacks {
+  func onSdkExit(isFromTicketRaisedScreen: Swift.Bool)
+  func onTicketRaised(sessionHash: Swift.String, ticketId: Swift.CLong, customerHash: Swift.String)
+  func getFirebaseDb() -> FirebaseDatabase.Database
+}

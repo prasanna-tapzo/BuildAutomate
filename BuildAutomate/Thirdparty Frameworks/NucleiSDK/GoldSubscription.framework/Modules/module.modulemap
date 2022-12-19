@@ -1,0 +1,11 @@
+framework module GoldSubscription {
+  umbrella header "GoldSubscription.h"
+
+  export *
+  module * { export * }
+}
+
+module GoldSubscription.Swift {
+    header "GoldSubscription-Swift.h"
+    requires objc
+}

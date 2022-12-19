@@ -1,0 +1,6 @@
+framework module FederalSdk {
+  umbrella header "FederalSdk.h"
+
+  export *
+  module * { export * }
+}

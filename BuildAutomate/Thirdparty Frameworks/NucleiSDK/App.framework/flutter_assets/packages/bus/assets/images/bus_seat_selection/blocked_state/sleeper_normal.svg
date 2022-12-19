@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53" height="97" viewBox="0 0 53 97">
+    <g fill="#DADADA" fill-rule="evenodd" stroke="#757F7E" transform="translate(1 1)">
+        <path d="M3 .5A2.5 2.5 0 0 0 .5 3v89A2.5 2.5 0 0 0 3 94.5h45a2.5 2.5 0 0 0 2.5-2.5V3A2.5 2.5 0 0 0 48 .5H3z"/>
+        <rect width="28" height="6" x="10.5" y="81.5" rx="2"/>
+    </g>
+</svg>

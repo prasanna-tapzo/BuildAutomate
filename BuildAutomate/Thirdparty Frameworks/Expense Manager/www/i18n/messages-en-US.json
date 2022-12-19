@@ -1,0 +1,1193 @@
+{  
+	"app": {			
+			"newregistration": {						
+						"register":"Register For Mobile Banking",
+						"cardnumber":"Card Number",
+						"pin":"PIN",
+						"title":"Register"
+						
+				},
+				"mpin":{
+						"mpingen":"MPIN GENERATION",
+						"submit":"Submit",
+						"mpin":"MPIN",
+						"creatempin":"CREATE NEW MPIN",
+						"reentermpin":"Re-enter MPIN",
+						"agree":"I agree to",
+						"termscond":"Terms & conditions",
+						"entermpin":"Please Enter MPIN",
+						"mpinent":"Enter New MPIN",
+						"mpinreent":"Re-enter New MPIN"
+				},	
+				"otp":{
+						"title":"One Time Password (OTP)",
+						"title1":"One Time Password",
+						"enterotp":"Please enter",
+						"submit":"Submit",
+						"t&c":"Terms & conditions",
+						"resendOTP" : "Resend OTP"
+						
+				},
+				
+			"services":{
+					"general":{
+						"title":"Services",
+						"lastlogin":"Last Login:",
+						"savingcurrent":"Savings & Current",
+						"deposits":"Deposits",
+						"prepaid":"Pre-Paid",
+						"wallet":"Wallet",
+						"loans":"Loans",
+						"mmddyy":"DD/MM/YYYY",
+						"from":"From",
+						"to":"To",
+						"cr":"CR",
+						"dr":"DR",
+						"nodata":"No Records Found.",
+						"nostmt":"No Statement Found",
+						"savings":"Savings",
+						"statusinq":"Status Inquiry",
+						"updatemail":"CONFIGURE/UPDATE EMAIL ID",
+						"genmmid":"GENERATE MMID",
+						"allserreq":"All Service Requests",
+						"freqused":"FREQUENTLY USED",
+						"stopcheque":"STOP CHEQUE",
+						"chequebookreq":"CHEQUE BOOK REQUEST",
+						"changecardpin":"CHANGE CARD PIN",
+						"chequestatus":"CHEQUE STATUS",
+						"blockcard":"BLOCK CARD",
+						"reqnewdb":"REQUEST NEW DEBIT CARD/PREPAID CARD", 
+						"reqnewdebit":"REQUEST NEW DEBIT CARD", 
+						"reqNewCard":"REQUEST NEW CARD",
+						"rescheduleloan":"RESCHEDULE LOAN",
+						"getnewoffer":"GET NEW OFFERINGS",
+						"kycchanges":"KYC CHANGES",
+						"noaccts":"No accounts have been mapped to your account.",
+						"nocard":"No cards have been mapped to your account.",
+						"nopayeelist":"There is no beneficiary added for this given transaction type.Please go to Add Payee to add new beneficiary."
+						
+							  },
+					 "kycchanges":{
+						"title":"KYC CHANGES",
+						"kycmsg1":"Kindly visit your nearest Jana branch for changes related to KYC.",
+						"prooftoupdate":"Proof to update",
+						"id":"ID",
+						"addr":"Address",
+						"both":"Both",
+						"succmsg":"We have registered your request. Request you to quote below reference number when you contact us next time",
+						"refno":"Unique Reference Number",
+						"headermsg1":"SUCCESSFULLY PLACED REQUEST",	
+						"headermsg2":"KYC Change "
+						          },
+						 
+				   "newoffers":{
+						"title":"KYC CHANGES",
+						"savings":"SAVINGS",
+						"current":"Current",
+						"deposits":"DEPOSITS",
+						"superlife":"SUPER LIFE",
+						"baditbachat":"BADIT BACHAT",
+						"otherparty":"3RD PARTY PRODUCTS",
+						"loans":"LONAS",
+						"msg1":"Information about savings account and its respective variants will be displayed in this screen.",
+						"msg2":"If interested in this offering & need more info, please submit your request.",
+						"succmsg":"SUCCESSFULLY PLACED INFO REQUEST",
+						"savingsacc":"savings account ",
+						"succmsg1":"We have registered your request. You'll hear from us in the next 48 hrs.",
+						"refno":"Unique Reference Number",
+						"msg3":"Need more info. Provide your contact details, we'll get in touch with you soon!",
+						"offerSavingsName":"Name",
+						"offerSavingsMobile":"Mobile",
+						"offerSavingsEmail":"Email",
+						"offercheckbox":"The check box for 'offerings' should be ticked."
+
+						
+						       },
+				   "rescheduleloan":{
+						"title":"RESCHEDULE LOAN",
+						"selectloan":"Select Loan",	
+						"outbal":"Outstanding Balance",
+						"reschedule":"RESCHEDULE",
+						"reason":"Reason",
+						"remarks":"Remarks",
+						"succmsg1":"REQUEST FOR RE-SCHEDULING ",
+						"succmsg2":"SUCCESSFULLY SUBMITTED",
+						"succmsg3":"Bank team will get in touch!",
+						"loanaccno":"Loan Account Number",
+						"refno":"Unique Reference Number"
+						},
+					"newdb":{
+						"title":"REQUEST NEW DEBIT CARD/PREPAID CARD",
+						"choosecard":"Choose Card",
+						"debit":"Debit",
+						"prepaid":"Prepaid",
+						"accno":"Account Number",
+						"typeofcard":"Type Of Card",
+						"primary":"Primary",
+						"addon":"Add On",
+						"cardcategory":"Card Category",
+						"reqcard":"Request Card",
+						"succmsgdb":"SUCCESSFULLY REQUESTED DEBIT CARD",
+						"succmsgpp":"SUCCESSFULLY REQUESTED PREPAID CARD",
+						"accno":"Account Number",
+						"refno":"Unique Reference Number"
+						},
+						
+					"blockcard":{
+						"title":"BLOCK CARD",
+						"mycards":"My Cards",
+						"reason":"Reason",
+						"blockandreplace":"BLOCK & REPLACE",
+						"succmsg":"SUCCESSFULLY BLOCKED",
+						"refno":"Unique Reference Number",
+						"cardlost":"Card Lost",
+						"cardbroken":"Card Broken",
+						"cardstolen":"Card Stolen"
+						
+					},
+					"chequestatus":{
+						"title":"CHEQUE STATUS",
+						"accno":"Account Number",
+						"chequeno":"Cheque Number",
+						"status":"Status",
+						"amt":"Amount"
+					},
+					"changecardpin":{
+						"title":"CHANGE CARD PIN",
+						"cardno":"Card Number",
+						"expdate":"Expiry Date",
+						"oldpin":"Old Pin",
+						"newpin":"New Pin",
+						"reconfirmpin":"Reconfirm Pin",
+						"succmsg":"SUCCESSFULLY CHANGED CARD PIN",
+						"refno":"Unique Reference Number"
+					},
+					"chequebookreq":{
+						"title":"CHEQUE BOOK REQUEST",
+						"accno":"Account Number",
+						"chequeleaves":"Cheque Leaves",
+						"succmsg":"SUCCESSFULLY REQUESTED CHEQUE BOOK",
+						"refno":"Unique Reference Number"
+					},
+					"stopcheque":{
+						"title":"STOP CHEQUE",
+						"accno":"Account Number",
+						"stopcheque":"Stop Cheque",
+						"single":"Single",
+						"multiple":"Multiple",
+						"chequeno":"Cheque Number",
+						"chequestartno":"Cheque Start No.",
+						"chequeendno":"Cheque End No.",
+						"reason":"Reason",
+						"chequenos":"Cheque Number(s)",
+						"succmsg":"SUCCESSFULLY STOPPED CHEQUE",
+						"refno":"Unique Reference Number",
+						"lost":"Lost",
+						"stop":"Stop"
+					},
+					"statusinq":{
+					    "title":"STATUS INQUIRY",
+						"details":"Details",
+						"succmsg":"Your cheque book request has been processed and dispatched on 28/03/2016. ",
+						"refno":"Unique Reference Number",
+						"details":"Details",
+						"srname":"Service Request Number",
+						"subject":"Subject of the SR",
+						"caseownername":"Case Owner",
+						"status":"Status",
+						"priority":"Priority",
+						"rescomments":"Response Comments"
+						
+					},
+					"updatemail":{
+						"title":"CONFIGURE/UPDATE EMAIL ID",
+						"existingmail":"Existing email ID",
+						"newmail":"New email ID",
+						"reentermail":"Re-enter email ID",
+						"succmsg":"SUCCESSFULLY UPDATED EMAIL ID",
+						"emailid":"Email ID",
+						"refno":"Unique Reference Number"
+					},
+					"generatemmid":{
+						"title":"GENERATE MMID",
+						"accno":"Account Number",
+						"MMID":"MMID",
+						"succmsg1":"REQUEST FOR MMID SUCCESSFULLY SUBMITTED",
+						"succmsg":"MMID will also be send to your registered mobile number.",
+						"mobno":"Mobile Number",
+						"refno":"Unique Reference Number"
+					}
+					
+			},
+			
+			"settings":{
+					"general":{
+						"title":"Settings"
+							  },
+					 "changempin":{
+						"title":"CHANGE MPIN",
+						"currentpin":"Current MPIN",
+						"newpin":"New MPIN",
+						"confirmpin":"Confirm MPIN",
+						"tandc":" I agree to Terms & Conditions ",
+						"refno":"Unique Reference Number",
+						"succmsg":"SUCCESSFULLY UPDATED MPIN"
+						          },
+						 
+				   "deregister":{
+						"title":"DE-REGISTER",
+						"reason":"Reason",
+						"msg":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum odio sed dolor ",
+						"succmsg":"SUCCESSFULLY DE-REGISTERED",
+						"refno":"Unique Reference Number"
+						       },
+				 "favfunctions":{
+						"title":"FAVOURITE FUNCTIONS",
+						"homescreenfunc":"Home Screen Functions",
+						"billpay":"BILL PAY",
+						"locateus":"LOCATE US",
+						"contactus":"CONTACT US",
+						"promotion":"PROMOTION",
+						"calculator":"CALCULATOR",
+						"faq":"FAQ",
+						"rewards":"REWARDS",
+						"offeringtitle":"Offerings for You",
+						"offerings":"OFFERINGS FOR YOU"
+						},
+				"security":{
+						"title":"SECURITY",
+						"titlemsg":"TWO FACTOR AUTHENTIFICATION",
+						"securityText":"Enable OTP for Transactions",
+						"succmsgEnable":"OTP for Transactions enabled SUCCESSFULY",
+						"succmsgDisable":"OTP for Transactions disabled SUCCESSFULY",
+						"refno":"Unique Reference Number"
+					}		
+						
+			},
+			"contactus":{
+					"general":{
+						"title":"Contact Us",
+						"contactcentreno":"Contact Centre No.",
+						"email":"Email",
+						"msdcall":"Missed Call",
+						"chatwith":"Chat With"
+						}
+			},
+			"faq":{
+					"general":{
+						"title":"FAQ",
+						"category":"Category"
+							}
+			},
+			"rewards":{
+					"general":{
+						"title":"Rewards"
+							}
+			},
+			"tandc":{
+					"general":{
+						"title":"Terms & Conditions"
+							}
+			},
+			"aboutus":{
+					"general":{
+						"title":"About Us"
+							}
+			},
+			"emi":{
+					"general":{
+						"producttype":"Product Type",
+						"monthlyemi":"Monthly EMI",
+						"totalinterest":"Total Interest",
+						"totalamt":"Total Amount",
+						"emiindi":"EMI is indicative"
+							}
+			},
+			
+			"billpay":{
+					"general":{
+						"title":"Bill Pay",
+						"paybills":"Pay Bills",
+						"recharge":"Recharge",
+						"history":"History",
+						"selcat":"Select Category",
+						"electricity":"ELECTRICITY",
+						"gas":"GAS",
+						"insurance":"INSURANCE",
+						"telephone":"TELEPHONE",
+						"dth":"DTH",
+						"billername":"Biller Name",
+						"billershortname":"Biller Short Name",
+						"billerrefno":"Biller Reference No.",
+						"autopay":"Auto Pay",
+						"rechargeamount":"Recharge Amount",
+						"yes":"Yes",
+						"no":"No",
+						"autopaylimit":"Auto Pay Limit",
+						"fromaccount":"From Account Number",
+						"acno":"Account Number",
+						"frmacno":"From Account No.",
+						"frmacct":"From Account Number",
+						"refnum":"Reference Number",
+						"amt":"Amount",
+						"telno":"Telephone Number",
+						"succaddbiller":"SUCCESSFULLY ADDED BILLER",
+						"modifybiller":"SUCCESSFULLY MODIFIED BILLER",
+						"successscheduled":"SUCCESSFULLY SCHEDULED",
+						"refno":"Unique Reference Number",
+						"status":"Status",
+						"succdelbiller":"SUCCESSFULLY DELETED BILLER",
+						"succdelete":"SUCCESSFULLY DELETED",
+						"succeditbiller":"SUCCESSFULLY EDITED BILLER",
+						"paynow":"PAY NOW",
+						"rechargesuccess":"Recharge Success.",
+						"operator":"Operator",
+						"referenceno":"Reference No.",
+						"account":"Account",
+						"billamt":"Bill Amount",
+						"remarks":"Remarks",
+						"txnsuccess":"TRANSACTION SUCCESSFUL",
+						"pay":"Pay",
+						"now":"Now",
+						"later":"Later",
+						"scheduleddate":"Schedule Date",
+						"recharge":"RECHARGE",
+						"rechargeamt":"Recharge Amount",
+						"fromdate":"From Date",
+						"todate":"To Date",
+						"rechargebtn":"Recharge",
+						"historyfor":"History For",
+						"amt":"Amount",
+						"rno":"R/No.",
+						"from":"From",
+						"to":"To",
+						"status":"Status",
+						"ttype":"Transaction Type",
+						"utrno":"UTR No.",
+						"pendingbills":"PENDING",
+						"scheduledbills":"SCHEDULED",
+						"autopaybills":"AUTO-PAY",
+						"autopayfrequency":"Auto Pay Frequency",
+						"autopaystartdate":"Start Date",
+						"fromdateisnotnull": "Please Enter The Start Date",
+						"todateisnotnull": "Please Enter The End Date",
+						"toDateShouldNotBeGreaterThanCurrDate":"End date should not be greater than Current Date",
+						"fromDateShouldBeLesserThanCurrDate":"Start date should be less than Current Date",
+						"toDateShouldBeGreaterThanFromDate":"Start Date should not be greater than End date",
+						"fromDateShouldBegreaterThanCurrDate":"Start date should be greater than Current Date",
+						"autopayenddate":"End Date",
+						"billamTnotZero":"Bill Amount should be greater than Zero",
+						"rechargeAmTnotZero":"Recharge Amount should be greater than Zero",
+						"scheduleDateDateNull":"Please Enter The Schedule Date",
+						"scheduleDateShouldBegreaterThanCurrDate":"Schedule date should be greater than Current Date",
+						"billerrefno":"Biller reference Number",
+						"airtelno":"Airtel Telephone Number"
+						        }
+			},
+			"forgotmpin":{
+					"general":{
+						"createpin":"CREATE NEW MPIN",
+						"newpin":"Enter New MPIN",
+						"reenterpin":"Re-enter New MPIN",
+						"title":"FORGOT MPIN",
+						"verifycard":"VERIFY CARD DETAILS"
+					}
+			},
+			
+				"login":{
+					"general":{
+						"title":"Login",
+						"successmsg":"Successfully registered for mobile banking.",
+						"plsenter":"Please enter",
+						"successmsg1":"to login",
+						"mpin":"MPIN",
+						"forgotmpin":"Forgot MPIN",
+						"mpinchangesucc":"Successfully changed MPIN. Please enter new MPIN to login.",
+						"paybills":"Pay Bills",
+						"locateus":"Locate Us",
+						"locationAccessTitle":"Location Service Required",
+						"locationAccessMessage":"Location access need to be on to get high accuracy",
+						"okButton":"Ok",
+						"contactus":"Contact Us",
+						"promotions":"Promotions",
+						"emi":"EMI Calculator",
+						"failure":"FAILURE",
+						"connectiontimedout":"CONNECTION TIMED OUT",
+						"nointernet" : "Please check your Network.",
+						"appserverchck":"App currently under maintenance and will be back soon; appreciate your patience "
+						
+						},
+					"layout":{
+						"myacct":"My Accounts",
+						"opendep":"Open Deposits",
+						"fundtransfer":"Funds Transfer",
+						"billpay":"Bill Pay",
+						"services":"Services",
+						"inbox":"Inbox",
+						"rewards":"Rewards",
+						"faq":"FAQ",
+						"settings":"Settings",
+						"help":"Help",
+						"t&c":"Terms & Conditions",
+						"about":"About Us",
+						"logoutconfirm":"Are you sure you want to logout?",
+						"yes":"YES",
+						"no":"NO",
+						"confirm":"Confirm",
+						"cancel":"Cancel",
+						"offerings":"Offerings",
+						"sbudget":"Smart Budget"
+						},
+					"billpay":{
+						"title":"Bill Pay",
+						"favorites":"FAVORITES",
+						"history":"HISTORY",
+						"paybills":"PAY BILLS",
+						"disableautopay":"DISABLE AUTO PAY",
+						"presentedbills":"PRESENTED BILLS",
+						"selectcategory":"SELECT CATEGORY",
+						"electricity":"ELECTRICITY",
+						"gas":"GAS",
+						"insurance":"INSURANCE",
+						"telephone":"TELEPHONE",
+						"recharge":"RECHARGE",
+						"dth":"DTH",
+						"operator":"Operator",
+						"refno":"Reference No.",
+						"amount":"Amount"
+					}			
+				},
+				"wealth":{
+					"general":{
+						"title":"My Accounts",
+						"lastlogin":"Last Login:",
+						"savingcurrent":"Savings & Current",
+						"deposits":"Deposits",
+						"prepaid":"Pre-Paid",
+						"wallet":"Wallet",
+						"loans":"Loans",
+						"mmddyy":"DD/MM/YYYY",
+						"from":"From",
+						"to":"To",
+						"cr":"CR",
+						"dr":"DR",
+						"nodata":"No Records Found.",
+						"nostmt":"No statement found for the specified period ",
+						"nostmtmini":"No statement found",
+						"depnodata":"You do not have Deposit with the Bank.",
+						"loannodata":"No loan accounts have been mapped to your account.",
+						"savings":"Savings",
+						"wallet":"Wallet",
+						"emailsent":"Your statement has been sent to",
+						"duration":"Duration",
+						"nopayeelist":"There is no beneficiary added for this given transaction type.Please go to Add Payee to add new beneficiary."
+						},
+					"deposits":{
+						"title":"Deposits",
+						"closedeposits":"Close Deposit",
+						"depositamt":"Deposit Amount",
+						"confirmclosefd":"Confirm Closing FD",
+						"accname":"Account Name",
+						"maturityamt":"Maturity Amount",
+						"interestrate":"Interest Rate",
+						"openeddate":"Opened Date",
+						"matures":"Matures",
+						"status":"Status",
+						"deposittype":"Deposit Type",
+						"instalmentamt":"Instalment Amount",
+						"closedepsuccess":"RECURRING DEPOSIT CLOSED",
+						"amount":"Amount",
+						"transdate":"Transaction Date",
+						"valuedate":"Value Date",
+						"toacc":"Transferred To Account",
+						"refno":"Unique Reference Number",
+						"seloffer":"Select Offering",
+						"typefd":"Type Of Fixed Deposit",
+						"sourceaccno":"Source Account Number",
+						"tennure":"Tenure",
+						"matoption":"Maturity Option",
+						"intpayout":"Interest Payout",
+						"accpayout":"Account for Payout",
+						"addnominee":"Add Nominee",
+						"yes":"Yes",
+						"no":"No",
+						"nomineename":"Nominee's Name",
+						"nomfac":"Nomination Facility to be Availed",
+						"nombankcust":"Nominee is a Bank Customer?",
+						"nomurn":"Nominee URN",
+						"nomDOB":"Nominee Date Of Birth",
+						"relationship":"Relationship",
+						"nomcontactno":"Nominee Contact Number",
+						"nomaddr1":"Nominee Address Line 1",
+						"nomaddr2":"Nominee Address Line 2",
+						"nomaddr3":"Nominee Address Line 3",
+						"landmark":"Landmark",
+						"country":"Country",
+						"pincode":"Pincode",
+						"city":"City",
+						"state":"State",
+						"guardianname":"Guardian Name",
+						"reltonom":"Relationship to Nominee",
+						"guardiancontactno":"Guardian Contact Number",
+						"guardaddr1":"Guardian Address Line 1",
+						"guardaddr2":"Guardian Address Line 2",
+						"guardaddr3":"Guardian Address Line 3",
+						"installamt":"Installment Amount",
+						"accnoformatamt":"Account Number for Maturity Amount",
+						"dateforinstalment":"Preferred Date For Monthly Instalment Debit",
+						"rdfreq":"Recurring Deposit Frequency",
+						"recdep":"RECURRING DEPOSIT ",
+						"fixeddep":"FIXED DEPOSIT ",
+						"accbal":"Account Balance",
+						"closureval":"Closure Value",
+						"accnoforpayout":"Account Number for Payout",
+						"transferttype":"Transfer",
+						"transamt":"Transfer Amount",
+						"balfdval":"Balance Fixed Deposit Value",
+						"partial":"Partial",
+						"full":"Full",
+						"years":"YEARS",
+						"months":"MONTHS",
+						"days":"DAYS",
+						"mos":"MOS",
+						"month" : "Months",
+						"year":"Years",
+						"day":"Days",
+						"month1" : "Month",
+						"year1":"Year",
+						"day1":"Day",
+						"recurringDepo_Prod1":"RECURRING DEPOSIT-PRODUCT 1",
+						"recurringDepo_Prod2":"RECURRING DEPOSIT-PRODUCT 2",
+						"fixedDepo_Prod1":"FIXED DEPOSIT-PRODUCT 1",
+						"fixedDepo_Prod2":"FIXED DEPOSIT-PRODUCT 2",
+						"maturityOptVal1" : "Redeem Interest and Principal to CASA",
+						"maturityOptVal2" : "Reinvest Principal and Interest",
+						"maturityOptVal3" : "Reinvest Principal and Redeem Interest to CASA",
+						"select" : "Select",
+						"active" : "Active"
+						},
+					"loan":{
+						"title":"Loans",
+						"paytitle":"Loan Payment",
+						"currentemi":"Current EMI",
+						"loanamt":"Loan Amount",
+						"tenure":"Tenure",
+						"startdate":"Start Date",
+						"amtpaid":"Amount Paid",
+						"noofpayments":"No. Of Payments",
+						"transferfrom":"TRANSFER FROM",
+						"accno":"Account Number",
+						"transferamt":"Transfer Amount",
+						"transferto":"Transfer To",
+						"tandc":"I agree to terms & conditions ",
+						"confirmloanpay":"CONFIRM LOAN PAYMENT",
+						"frmacc":"From Account",
+						"toacc":"To Account",
+						"ereceipt":"ERECEIPT",
+						"balout":"Balance Outstanding",
+						"refno":"Unique Reference Number",
+						"tranrefno":"Transaction Reference Number",
+						"reqno":"Request Number",
+						"remarks":"Remarks",
+						"location":"Location"
+					},
+					"casa":{
+						"nostmt":"No Statement Found"
+					},
+					"prepaid":{
+						"prepaid":"Pre-Paid",
+						"noprecards":"No prepaid card have been mapped to your account"
+					}
+			},
+			"prelogin":{
+					"general":{
+						"title":"EMI CALCULATOR",
+						"successmsg":"Successfully registered for mobile banking.",
+						"plsenter":"Please enter",
+						"successmsg1":"to login",
+						"mpin":"MPIN",
+						"forgotmpin":"Forgot MPIN",
+						"paybills":"Pay Bills",
+						"locateus":"Locate Us",
+						"contactus":"Contact Us"	
+							}
+					},
+			"messagecenter":{
+					"general":{
+						"title":"Mailbox",
+						"compose":"Compose",
+						"inbox":"Inbox",
+						"sentitems":"Sent Items",
+						"debitcard":"Debit Card",
+						"creditcard":"Credit Card",
+						"cheque":"Cheque book",
+						"subject":"Subject",
+						"message":"Message",
+						"reply":"Reply"
+						}
+						
+			},
+				"smartbudget":{
+				       "general":{
+				            "dashboard":"DASHBOARD",
+				            "accounts":"ACCOUNTS",
+				            "budgets":"BUDGETS",
+				            "reports":"REPORTS",
+				            "submit":"SUBMIT",
+				            "delete":"DELETE",
+				            "addnewbudget":"ADD NEW BUDGET",
+				            "save":"SAVE",
+				            "delete":"Delete",
+				            "screenTitle":"Smart Budget",
+				            "EditBudget":"Edit Budget",
+							"expandcate":"Expenses by Category",
+							"alluncate":"All Uncategorized",
+							"transaction":"Transaction",
+							"Accounts":"Accounts",
+							"splitTransaction":"Split Transaction",
+							"AddNewBudget":"Add New Budget",
+				       		"EditBudget":"Edit Budget"
+				       }
+				},
+			"transfer":{
+					"general":{
+						"transfer":"TRANSFER",
+						"favorites":"FAVORITES",
+						"scheduled":"SCHEDULED",
+						"standinginst":"STANDING INSTRUCTION",
+						"history":"HISTORY",
+						"ownacc":"OWN ACCOUNT",
+						"janabank":"JANA BANK",
+						"janabankpayee":"Jana Bank",
+						"otherbank":"OTHER BANK",
+						"mobilepayee":"MOBILE PAYEE",
+						"janacard":"JANA CARD",
+						"ownaccpayee":"OWN ACCOUNT - PAYEES",
+						"janapayee":"JANA BANK - PAYEES",
+						"otherpayee":"OTHER BANK - PAYEES",
+						"mobilepayee":"MOBILE PAYEE",
+						"janacardpayee":"JANA CARD - PAYEES",
+						"otherbankpayee":"Other Bank Payees",
+						"janabankpayees":"Jana Bank Payees",
+						"mobilebankpayee":"Mobile Payees",
+						"payeename":"Payee Name",
+						"accnum":"Account Number",
+						"reenteracc":"Re-enter Account number",
+						"nameofaccholder":"Name Of Account Holder",
+						"fundtransfer":"Funds Transfer",
+						"payeetype":"Payee Type",
+						"fromdate":"From Date",
+						"todate":"To Date",
+						"date":"Date",
+						"nickname":"Nick Name",
+						"successtrans":"SUCCESSFULLY TRANSFERRED",
+						"schedelete":"SUCCESSFULLY DELETED SCHEDULED TRANSACTION",
+						"nosi":"No Standing Instructions Available.To Add Standing Instructions click on set standing instruction Button",
+						"coolingMessage":"The newly added payee will be activated after"
+						},
+					"ownaccount":{
+						"title":"Transfer To Own Account",
+						"confirmownacc":"CONFIRM",
+						"ownacc":"Own Account Transfer",
+						"from":"FROM ACCOUNT",
+						"fromacc":"From Account No.",
+						"fromaccount":"From Account Number",
+						"balance":"Balance",
+						"accname":"Account Name",
+						"accnum":"Account Number",
+						"to":"To",
+						"name":"Name",
+						"amount":"Amount",
+						"remarks":"Remarks",
+						"pay":"Pay",
+						"now":"Now",
+						"later":"Later",
+						"urn":"Unique Reference Number",
+						"tranrefno":"Transaction Reference Number",
+						"successmsg":"SUCCESSFULLY TRANSFERRED",
+						"successmsglater":"Successfully Scheduled",
+						"toaccname":"To Account Name",
+						"toaccno":"To Account No.",
+						"toaccount":"To Account Number",
+						"transferamt":"Transfer Amount",
+						"remarks":"Remarks",
+						"termscond":"I agree to terms & conditions",
+						"toac":"TO A/C ",
+						"scheduledate":"Schedule Date",
+						"sameaccerr":" Two or more A/Cs are required to carry out this transaction."
+						},
+					"payee":{
+						"addpayee":"Add Payee",
+						"deletepayee":"Delete Payee",
+						"markfav":"Mark Favorite",
+						"bank":"Bank",
+						"branch":"Branch",
+						"ifsc":"IFSC Code",
+						"payeename":"Payee Name",
+						"beneacctype":"Beneficiary Account Type",
+						"nickname":"Nick Name",
+						"mobno":"Mobile Number",
+						"emailid":"Email ID",
+						"reentermobno":"Re-enter Mobile number",
+						"mmid":"MMID",
+						"select":"Select",
+						"saving":"Saving",
+						"current":"Current",
+						"addsuccess":"SUCCESSFULLY ADDED MOBILE PAYEE",
+						"urn":"Unique Reference Number",
+						"mobpayeetitle":"Transfer To Mobile Payee",
+						"payeeconfirm":"CONFIRM",
+						"payeesucc":"Mobile Payee Transfer"
+						
+						},
+					"jana":{
+						"fromaccnum":"From Account Number",
+						"title":"Transfer To Jana Account",
+						"confirmtitle":"CONFIRM",
+						"successtitle":"Jana Account Transfer",
+						"addsuccess":"SUCCESSFULLY ADDED JANA PAYEE",
+						"deletesuccess":"SUCCESSFULLY DELETED JANA PAYEE",
+						"freq":"Frequency",
+						"startdate":"Start Date",
+						"enddate":"End Date"
+						},
+					"otherbank":{
+						"imps":"IMPS",
+						"neft":"NEFT",
+						"rtgs":"RTGS",
+						"rtgsmsg":"(above Rs.2,00,000)",
+						"bankname":"Bank Name",
+						"transfertype":"Transfer Type",
+						"fee":"Fees",
+						"title":"Transfer To Other Bank",
+						"confirmtitle":"CONFIRM",
+						"succtitle":"Other Bank Account Transfer",
+						"addsuccess":"SUCCESSFULLY ADDED OTHER BANK PAYEE",
+						"deletesuccess":"SUCCESSFULLY DELETED OTHER BANK PAYEE"
+						},
+					"mobilepayee":{
+						"tommid":"TO MMID #",
+						"tomob":"To Mobile Number",
+						"tommid":"To MMID",
+						"fromaccname":"From Account Name",
+						"status":"Status",
+						"deletesuccess":"SUCCESSFULLY DELETED MOBILE PAYEE"
+					},
+					"janacard":{
+						"title":"Transfer To Jana Card",
+						"confirmtitle":"CONFIRM",
+						"janatitle":"Jana Card Transfer",
+						"cardserialno":"Card Serial Number",
+						"serialno":"To Serial Number",
+						"topayee":"TO PAYEE",
+						"tocardno":"To Card Number",
+						"cardno":"Card Number"
+					},
+					"history":{
+						"utrno":"UTR No.",
+						"transtype":"Transaction Type",
+						"transno":"Transaction Reference Number",
+						"rno":"R/No."
+					},
+					"scheduled":{
+						"fromaccount":"From Account",
+						"toaccount":"To Account",
+						"enddate":"End Date",
+						"freq":"Frequency",
+						"monthly":"Monthly",
+						"yearly":"Yearly"
+					},
+					"standinginst":{
+						"siedittitle":"Edit Standing Instruction",
+						"sieditsucc":"Standing Instruction Account Transfer",
+						"siedit":"SUCCESSFULLY EDITED STANDING INSTRUCTION",
+						"sideletesuccess":"SUCCESSFULLY DELETED STANDING INSTRUCTION",
+						"siowntitle":"Standing Instruction To Own Account",
+						"sititle":"SET STANDING INSTRUCTION",
+						"sideletetitle":"DELETE STANDING INSTRUCTION",
+						"sititleconfirm":"CONFIRM",
+						"succmsg":"SUCCESSFULLY SET STANDING INSTRUCTION",
+						"errorToDateNotEqToCurDate":"End date should be greater than current date.",
+						"errorFromDateShouldBeGreater":"Start date should be greater than current date",
+						"errorTodateShoulNotBeless":"End date should be greater than start date",
+						"WeeklyError":"Date Difference should be greater than 7 days",
+						"FortnightlyError":"Date Difference should be greater than 15 days",
+						"MonthlyError":"Date Difference should be greater than 30 days",
+						"BimonthlyError":"Date Difference should be greater than 60 days",
+						"QuarterlyError":"Date Difference should be greater than 90 days",
+						"HalfyearlyError":"Date Difference should be greater than 180 days",
+						"YearlyError":"Date Difference should be greater than 360 days",
+						"One_hundred_eighty_daysError":"Date Difference should be greater than 180 days"
+					}
+					}
+		},
+		"validation": {
+				"registration": {
+						"cardnotnull": "Card Number should not be left blank",
+						"pinnotnull": "Card PIN should not be left blank",
+						"cardval":"Length of the card number should be 16-Digit",
+						"pinval":"length of card PIN should be 4-Digit."	
+											
+				},
+				"mpingeneration":{
+						"mpinnotnull": "MPIN field should not be left blank", 
+						"mpinval":"MPIN should be 4-digit numeric field.",
+						"confirmnotnull":"Re-enter MPIN should not be left blank",
+						"confirmmpinval":"Re-enter MPIN should be 4-digit numeric field.",
+						"mpinsame":"MPIN and re-enter MPIN should be same",
+						"t&c":"The check box for 'Terms & conditions' should be ticked.",
+						"mpin":"Please Enter MPIN to Login",
+						"wrongmpin":"The MPIN you have entered is incorrect",
+						"mpinvalidno":"Please Enter Valid MPIN",
+						"newmpinnotnull": "Enter New MPIN field should not be left blank", 
+						"rempinnotnull": "Re-enter New MPIN field should not be left blank"
+				},
+				"otp":{
+					"otpnotnull":"Please Enter OTP",
+					"softotpnotnull":"Please Enter Passcode",
+					"otpLength":"OTP must be 4 digits",
+					"otpValueCheck":"Please enter only numbers",
+					"otpTriesMsg":"OTP tries Exceeded"
+				},
+				"newofferssavings":{
+				"name":"Please enter the name",
+				"email":"Please enter valid email id",
+				"mobile":"Please enter 10 digit mobile number"
+				},
+				"smartbudget":{
+				      "accountNamenotnull":"Please Enter Account Name",
+				      "failureMessage":"Unable to process your request, try again",
+				      "budgetValidAmount":"Please enter a valid amount"
+				},
+				
+				"wealth":{
+					"general":{
+						"fromdateisnotnull": "Please Enter The From Date",
+						"todateisnotnull": "Please Enter The To Date",
+						"toDateShouldNotBeGreaterThanCurrDate":"To date should not be greater than Current Date",
+						"fromDateShouldBeLesserThanCurrDate":"From date should be less than Current Date",
+						"toDateShouldBeGreaterThanFromDate":"From Date should not be greater than To date",
+						"depamtisnotnull":"Instalment Amount field should not be left blank",
+						"interestrateisnotnull":"Interest Rate field should not be left blank",
+						"nomurnisnotnull":"Nominee URN  field should not be left blank",
+						"nomineenameisnotnull":"Nominee Name field should not be left blank",
+						"nomDOBisnotnull":"Nominee Date Of Birth field should not be left blank",
+						"nomcontactnoisnotnull":"Nominee Contact Number field should not be left blank",
+						"nomaddr1tisnotnull":"Nominee Address 1 field should not be left blank",
+						"nomaddr2isnotnull":"Nominee Address 2 field should not be left blank",
+						"nomaddr3isnotnull":"Nominee Address 3 field should not be left blank",
+						"landmarkisnotnull":"Landmark field should not be left blank",
+						"guardiannameisnotnull":"Guardian Name field should not be left blank",
+						"guardiancontactnoisnotnull":"Guardian Contact Number field should not be left blank",
+						"guardaddr1isnotnull":"Guardian Address 1 field should not be left blank",
+						"guardaddr2isnotnull":"Guardian Address 2 field should not be left blank",
+						"guardaddr3isnotnull":"Guardian Address 3 field should not be left blank",
+						"guarlandmarkisnotnull":"Landmark field should not be left blank",
+						"depositamtisnotnull":"deposit Amount field should not be left blank or Zero",
+						"depositamtgrtrblnce":"Deposit amount should not be greater than available balance",
+						"banknomineecheckederr": "Please select any one of the option",
+						"transtypeerr": "Please select the type of transfer",
+						"installamtnullerr":"Installment Amount field should not be left blank",
+						"intratenullerr":"Interest rate field should not be left blank",
+						"tenureyearisnotnull": "Please select the year",
+						"tenuremonthisnotnull": "Please select the month",
+						"tenuredateisnotnull": "Please select the days",
+						"loanamtnotnull":"Loan amount field should not be left blank",
+						"reconfirmpinerr":"confirm PIN should be 4-digit numeric field.",
+						"confirmpinsame":"New Pin and confirm PIN should be same.",
+						"reconfirmpinnotnull":"confirm PIN field should not be left blank",
+						"errorquaterfreq1":"Date Difference should be 6 months",
+						"errorquaterfreq":"Date Difference should be 3 months",
+						"loanamterr1":"Transfer amount should not be greater than current EMI",
+						"loanamterr":"Transfer amount should not be greater than Outstanding Amount",
+						"loanamtzero1":"Please enter valid amount",
+						"loanamtzero":"Amount should be greater than or equal to 1 INR",
+						"amounterr":"Transfer amount should not be greater than available balance",
+						"amtzero":"Amount should be greater than or equal to 1 INR",
+						"amtzero1":"Please enter valid amount",
+						"sourceAccNum":"Please select source Account Number",
+						"maturityAmt":"Maturity amount field should not be left blank",
+						"maturityAccount":"Please select Account Number for Maturity Amount",
+						"countryNull":"Please select Country",
+						"pincode":"Pincode field should not be left blank",
+						"city":"Please select City",
+						"state":"State field should not be left blank",
+						"dateforinstalment":"Please select Installment Date",
+						"fixedDepositType" : "Fixed Deposite field should not be left blank",
+						"maturityOpt":"Please select Maturity Option",
+						"accPayout":"Please Select Account for Payout",
+						"contactLength" : "Please provide 10 digits Contact Number",
+						"pincodeLength":"Please provide 6 digits valid Pincode",
+						"relationship": "Please select Relationship of Nominee",
+						"relationtonom": "Please select Relationship of Guardian",
+						"intpayout":"Please select Interest Payout",
+						"selectloantype":"Please select loan type",
+						"transferAmount" : "Transfer Amount field should not be left blank",
+						"payoutAccNo": "Please select Account Number for Payout",
+						"depositAmountchk" : "Please enter amount should not be blank or Zero",
+						"pincodeError" : "Record is not found!",
+						"depositLimitMsg1": "Min. Rs.",
+						"depositLimitMsg2": "/- and Max Rs.",
+						"depositLimitMsg3": "/- (Max in multiples of ",
+						"depositLimitMsg4": "there after)",
+						"depositIncrement1" : "Please enter amount multiples of ",
+						"depositIncrement2" : " only",
+						"tennureLimitMsg1" : "Please select greater than ",
+						"tennureLimitMsg2" : " and less than",
+						"tennureLimitMsg3" : " Months",
+						"tennureLimitMsg4" : "Days",
+						"nomineeURN" : "Please enter 16 digit valid Nominee URN.",
+						"nomineefac":"Please Select Nomination  Facility to be Availed",
+						"nomineeURN_Empty" : "Please enter valid Nominee URN.",
+						"self_Nominee" : "Self Nominee is not applicable.",
+						"valid_URN" : "Entered nominee URN is valid,Please proceed."
+						}	
+					},
+				"transfer":{
+					"amountisnotnull":"Please Enter the Amount",
+					"amountvalneft":"Payment Amount should be less than Rs. 200000",
+					"amountvalrtgs":"Payment Amount should be greater than Rs. 200000",
+					"amountvallimitrtgs":"Payment Amount should be less than Rs. 1000000",
+					"remarksisnotnull":"Please Enter the Remarks",
+					"accountisnotnull":"Please Select the Payee",
+					"cardnotnull":"Please Select the Card",
+					"accountnonotnull":"Please Enter the Account Number",
+					"reenteraccnotnull":"Please Re-Enter the Account Number",
+					"accnumsame":"Account Number and Re-enter Account Number Should be Same",
+					"acclength":"Account Number Should be 16 digit numeric field",
+					"bankname":"Please Enter the Bank Name",
+					"branchname":"Please Enter the Branch Name",
+					"banknameLengthErr":"Please Enter atleast 3 characters",
+					"branchnameLengthErr":"Please Enter atleast 3 characters",
+					"ifsc":"Please Enter the IFSC Code",
+					"ifscerr":"No Record found.",
+					"payeename":"Please Enter the Payee Name",
+					"benetype":"Please Select the Beneficiary Account Type",
+					"mobno":"Please Enter the Mobile Number",
+					"name":"Please Enter the Name",
+					"reentermobno":"Please Re-enter the Mobile Number",
+					"mmid":"Please Enter the MMID",
+					"mobnosame":"Mobile Number and Re-enter Mobile Number Should be same ",	
+					"mobnolength":"Mobile Number Should be 10 digit",
+					"banknotnull":"Please Enter the Bank Name",
+					"branchnotnull":"Please Enter the Branch Name"	,
+					"serialnonull":"Please Enter the Card Serial Number",
+					"datenotnull":"Please Select the Schedule Date",
+					"deltransnull":"Please Select the Transaction to delete",
+					"startdateisnotnull": "Please Enter the From date",
+					"enddateisnotnull": "Please Enter the To date",
+					"freqselect":"Please Select the frequency",
+					"email" : "Enter Valid Email Address",
+					"amtval":"Amount should not be greater than available balance",
+					"amtzero1":"Please enter valid amount",
+					"amtzero":"Amount should be greater than or equal to 1 INR",
+					"selecterror":"Please Select a IFSC Code",
+					"mmidLength":"MMID Should be 7 digit",
+					"startdatenotnull":"Please Select the Start Date",
+					"payeeselecterror":"Please select a payee to delete",
+					"enddatenotnull":"Please Select the End Date",
+					"scheduleDate" : "Please select the date greater than today date!"
+					},
+				"billpay":{
+				
+					"billernamenotnull":"Biller  Name should not be left blank",
+					"billershortnamenotnull":"Biller Short Name should not be left blank",
+					"billerrefnonotnull":"Biller Reference Number should not be left blank",
+					"autopaylimitnotnull":"Auto Pay Limit should not be left blank",
+					"autopaycheckederr":"Please select the mode of payment",
+					"refnumnotnull":"Reference Number should not be left blank",
+					"telnonotnull":"Telephone Number should not be left blank",
+					"acnonotnull":"Account Number should not be left blank",
+					"remarksnotnull":"Remarks should not be left blank",
+					"rechargeamtnotnull":"Recharge Amount should not be left blank",
+					"paymentcheckederr":"Please select the payment option",
+					"amtisnotnull":"Amount should not be left blank",
+					"billamtisnotnull":"Bill Amount should not be left blank",
+					"showErrorForNotPossible":"Edit Biller is allowed only for Auto-Pay Yes Option",
+					"mobnoisnotnull":"Mobile Number should not be left blank"
+					
+				},
+				"services":{
+					"newpinerr":"new PIN should be 4-digit numeric field.",
+					"reconfirmpinerr":"Reconfirm PIN should be 4-digit numeric field.",
+					"confirmpinsame":"New Pin and Reconfirm PIN should be same.",
+					"newpinsame":"Old Pin and New PIN should not be same.",
+					"oldpinnotnull":"old PIN field should not be left blank",
+					"newpinnotnull":"New PIN field should not be left blank",
+					"reconfirmpinnotnull":"Reconfirm PIN field should not be left blank",
+					"chequenonotnull":"Cheque Number should not be left blank",
+					"chequestartnonotnull":"Cheque Start Number should not be left blank",
+					"chequeendnonotnull":"Cheque End Number field should not be left blank",
+					"nomineecheckederr":"Please Choose The Card",
+					"typcardcheckederr":"Please Select The Card Type",
+					"acctnonotnull":"Account Number should not be left blank",
+					"chequenoerr":"Cheque Number should not be left blank",
+					"oldemailnotnull":"Old Email should not be left blank",
+					"newemailnotnull":"Please enter valid email Id",
+					"reenteremailnotnull":"Please enter valid email Id",
+					"reenteremailerr":"New Email and Re-enter Email should  be same.",
+					"mailsame":"Old Email and New Email should not be same.",
+					"mobnonotnull":"Mobile Number should not be left blank",
+					"currentpinerr":"Current PIN should be 4-digit numeric field.",
+					"reasonnotnull":"Reason should not be left blank",
+					"chequenotsame":"Cheque start number amd cheque end number should not be same.",
+					"pinnotsame":"Old Pin You have entered is incorrect",
+					"refnonotnull":"Please select the reference number",
+					"namenotnull":"Please enter the name",
+					"mobilenotnull":"Plese enter the mobile number"
+				},
+				"messagecenter":{
+					"category":"Please Select the category",
+					"subject":"Please Select the subject",
+					"messageBody":"Message content cannot be empty",
+					"selectMail":"Please select atleast a mail to delete"
+				},
+						
+				"settings":{
+					"currentpinnotnull":"Current Pin should not be left blank",
+					"newpinnotnull":"New Pin should not be left blank",
+					"confirmpinnotnull":"Confirm Pin should not be left blank"			
+				}	
+								
+		},	
+		"exception": {
+				"common": {
+				},
+				
+				"bmerror": {
+					"BM-90002": "Invalid One Time Password",
+					"BM-501": "Transaction Amount less than Minimum Amount Per Transaction",
+					"BM-502": "Transaction Amount greater than Maximum Amount Per Transaction",
+					"BM-503": "Daily Transaction Limit Exceeded",
+					"BM-504": "Daily Transaction Count Exceeded", 
+					"BM-505": "Weekly Transaction Limit Exceeded", 
+					"BM-506": "Weekly Transaction Count Exceeded", 
+					"BM-507": "FortNightly Transaction Limit Exceeded", 
+					"BM-508": "FortNightly Transaction Count Exceeded", 
+					"BM-509": "Monthly Transaction Limit Exceeded", 
+					"BM-510": "Monthly Transaction Count Exceeded",
+					"BM-511": "Quarterly Transaction Limit Exceeded", 
+					"BM-512": "Quarterly Transaction Count Exceeded",  
+					"BM-513": "Half-Yearly Transaction Limit Exceeded", 
+					"BM-514": "Half-Yearly Transaction Count Exceeded",
+					"BM-515": "Yearly Transaction Limit Exceeded", 
+					"BM-516": "Yearly Transaction Count Exceeded",
+					"REST-90011":"NO Records Found"
+				}
+		},
+		"button": {  			
+			"general": {
+					"apply":"APPLY",
+					"back": "BACK TO HOME",
+					"lastsuccessfulllogin": "LAST SUCCESSFUL LOGIN",
+					"cancel": "CANCEL",
+					"submit":"SUBMIT",
+					"logout": "LOGOUT",
+					"resend":"RESEND",
+					"ok":"OK",
+					"continue":"CONTINUE",
+					"confirm":"CONFIRM",
+					"edit":"EDIT",
+					"delete":"DELETE",
+					"save":"Save",
+					"send":"SEND",
+					"reply":"REPLY",
+					"backtohome":"BACK",
+					"calculate":"CALCULATE",
+					"close":"CLOSE"
+					
+					},
+			"login":{
+				"addbiller":"ADD BILLER",
+				"deletebiller":"DELETE BILLER"
+					},
+			"registration":{
+					"generatempin":"GENERATE MPIN"
+					},
+			"wealth":{
+				"general":{
+						"viewstmt":"VIEW STATEMENT",
+						"emailstmt":"EMAIL STATEMENT",
+						"loanpayment":"LOAN PAYMENT"
+							},				
+				"deposit":{
+						"opendeposit":"OPEN DEPOSIT",
+						"closedeposit":"CLOSE DEPOSIT"
+						}
+					},
+				"billpay":{
+					"addbiller":"ADD BILLER",
+					"viewbiller":"VIEW BILLER",
+					"editbiller":"EDIT BILLER",
+					"deletebiller":"DELETE BILLER"
+				},
+			"transfer":{
+				"general":{
+						"addpayee":"ADD PAYEE",
+						"deletepayee":"DELETE PAYEE",
+						"initiatetransfer":"INITIATE TRANSFER",
+						"deletescheduled":"DELETE SCHEDULED TRANSACTION",
+						"setstandinginst":"SET STANDING INSTRUCTION"
+						}
+				}
+		},
+		"env": 	{
+			"url":{
+					"sitold":"http://192.168.20.199:9083/jfs_retail_rest/",
+					"sitoldservice":"http://192.168.20.199:9083/jfs_retail_rest/services/",
+					"sitoldjson":"http://127.0.0.1:9292/Mobile/json/",
+
+					"sitnew":"http://124.124.1.30/jfs_retail_rest/",
+					"sitnewservice":"http://124.124.1.30/jfs_retail_rest/services/",
+					"sitnewjson":"http://127.0.0.1:9292/Mobile/json/", 
+
+
+					"uatold":"https://uatgateway.federalbank.co.in:8811/ib-retail-rest/",
+					"uatoldservice":"https://uatgateway.federalbank.co.in:8811/ib-retail-rest/services/",
+					"uatoldjson":"http://127.0.0.1:9292/Mobile/json/",
+
+
+					"uatnew":"https://expense-staging.gonuclei.com/ib-retail-rest/",
+					"uatnewservice":"https://expense-staging.gonuclei.com/ib-retail-rest/services/",
+					"uatnewjson":"http://127.0.0.1:9292/Mobile/json/",
+
+					"prod":"https://fedmobileapp.federalbank.co.in/ib-retail-rest/",
+					"prodservice":"https://fedmobileapp.federalbank.co.in/ib-retail-rest/services/",
+					"prodjson":"http://127.0.0.1:9292/Mobile/json/",
+
+
+					"softlaunch":"http://124.124.1.30/jfs_sim_rest/",
+					"softlaunchservice":"http://124.124.1.30/jfs_sim_rest/services/",
+					"softlaunchjson":"http://127.0.0.1:9292/Mobile/json/",
+
+
+					"arasulocal":"http://192.168.12.235:9081/ib-retail-rest/",
+					"arasulocalservice":"http://192.168.12.235:9081/ib-retail-rest/services/",
+					"arasulocaljson":"http://127.0.0.1:9292/Mobile/json/",
+
+
+					"sureshlocal":"http://192.168.12.165:9081/ib-retail-rest/",
+					"sureshlocalservice":"http://192.168.12.165:9081/ib-retail-rest/services/",
+					"sureshlocaljson":"http://127.0.0.1:9081/Mobile/json/",
+					
+					"Manilocal":"http://192.168.12.249:9081/ib-retail-rest/",
+					"Manilocalservice":"http://192.168.12.249:9081/ib-retail-rest/services/",
+					"Manilocaljson":"http://127.0.0.1:9081/Mobile/json/",
+
+
+					"johnsonlocal":"http://192.168.12.163:5444/em-app-rest/",
+					"johnsonlocalservice":"http://192.168.12.163:5444/em-app-rest/services/",
+					"johnsonlocaljson":"http://127.0.0.1:9292/Mobile/json/",
+
+
+					"admin31local":"http://192.168.12.240:9043/ib-retail-rest/",
+					"admin31localservice":"http://192.168.12.240:9043/ib-retail-rest/services/",
+					"admin31localjson":"http://127.0.0.1:9292/Mobile/json/",
+
+
+					"admin31public":"http://demo.clayfin.com:8083/em-app-rest/",
+					"admin31publicservice":"http://demo.clayfin.com:8083/em-app-rest/services/",
+					"admin31publicjson":"http://127.0.0.1:9292/Mobile/json/"
+			}
+		}
+}

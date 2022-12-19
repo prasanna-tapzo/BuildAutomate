@@ -1,0 +1,11 @@
+framework module WebSDK {
+  umbrella header "WebSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module WebSDK.Swift {
+    header "WebSDK-Swift.h"
+    requires objc
+}

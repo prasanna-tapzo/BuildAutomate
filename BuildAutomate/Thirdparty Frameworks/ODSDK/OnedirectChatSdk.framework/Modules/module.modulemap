@@ -1,0 +1,11 @@
+framework module OnedirectChatSdk {
+  umbrella header "OnedirectChatSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module OnedirectChatSdk.Swift {
+    header "OnedirectChatSdk-Swift.h"
+    requires objc
+}

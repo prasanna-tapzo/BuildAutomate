@@ -1,0 +1,11 @@
+framework module SGSDK_FW {
+  umbrella header "SGSDK_FW.h"
+
+  export *
+  module * { export * }
+}
+
+module SGSDK_FW.Swift {
+    header "SGSDK_FW-Swift.h"
+    requires objc
+}

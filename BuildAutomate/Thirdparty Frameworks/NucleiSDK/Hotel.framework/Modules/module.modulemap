@@ -1,0 +1,11 @@
+framework module Hotel {
+  umbrella header "Hotel.h"
+
+  export *
+  module * { export * }
+}
+
+module Hotel.Swift {
+    header "Hotel-Swift.h"
+    requires objc
+}
