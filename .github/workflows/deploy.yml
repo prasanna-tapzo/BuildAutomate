@@ -4,8 +4,29 @@ on:
     branches:
       - main
 jobs:
+  copy-file:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Clone framewrok repo
+      uses: actions/checkout@v2
+      
+      with:
+          repository: CDNA-Technologies/nuclei-federal-ios-frameworks
+          #path: Thirdparty\ Frameworks 
+          ref: UAT_13
+          token: ${{ secrets.PAT }}
+    - name: Pushes the cloned framework folder into FedMobile app
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.PAT }}
+      with:
+        source_file: 'Thirdparty\ Frameworks'
+        destination_repo: 'prasanna-tapzo/BuildAutomate'
+        destination_folder: 'FedMobile/Thirdparty\ Frameworks/'
+        user_email: 'prasanna.aithal@gonuclei.com'
+        user_name: 'prasanna-tapzo'
   test:
-    runs-on: ubuntu-latest #macOS-latest
+    runs-on: macOS-latest
     steps:
     - name: Checkout repository
       uses: actions/checkout@v1
@@ -28,24 +49,7 @@ jobs:
         pod install --repo-update
 
       shell: bash
-    - name: Clone framewrok repo
-      uses: actions/checkout@v2
-      
-      with:
-          repository: CDNA-Technologies/nuclei-federal-ios-frameworks
-          #path: Thirdparty\ Frameworks 
-          ref: UAT_13
-          token: ${{ secrets.PAT }}
-    - name: Pushes the cloned framework folder into FedMobile app
-      uses: dmnemec/copy_file_to_another_repo_action@main
-      env:
-        API_TOKEN_GITHUB: ${{ secrets.PAT }}
-      with:
-        source_file: 'Thirdparty\ Frameworks'
-        destination_repo: 'prasanna-tapzo/BuildAutomate'
-        destination_folder: 'FedMobile/Thirdparty\ Frameworks/'
-        user_email: 'prasanna.aithal@gonuclei.com'
-        user_name: 'prasanna-tapzo'
+    
     - name: Install gpg
       run: brew install gnupg
     - name: Giving permission to shell files
