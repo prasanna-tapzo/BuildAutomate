@@ -33,10 +33,19 @@ jobs:
       
       with:
           repository: CDNA-Technologies/nuclei-federal-ios-frameworks
-          path: Thirdparty\ Frameworks 
-          ref: UAT_13_temp
+          #path: Thirdparty\ Frameworks 
+          ref: UAT_13
           token: ${{ secrets.PAT }}
-
+    - name: Pushes the cloned framework folder into FedMobile app
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.PAT }}
+      with:
+        source_file: 'Thirdparty\ Frameworks'
+        destination_repo: 'prasanna-tapzo/BuildAutomate'
+        destination_folder: 'FedMobile/Thirdparty\ Frameworks/'
+        user_email: 'prasanna.aithal@gonuclei.com'
+        user_name: 'prasanna-tapzo'
     - name: Install gpg
       run: brew install gnupg
     - name: Giving permission to shell files
