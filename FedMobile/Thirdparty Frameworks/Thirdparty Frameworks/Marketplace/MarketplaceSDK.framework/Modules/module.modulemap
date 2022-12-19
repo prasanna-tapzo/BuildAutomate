@@ -1,0 +1,11 @@
+framework module MarketplaceSDK {
+  umbrella header "MarketplaceSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module MarketplaceSDK.Swift {
+    header "MarketplaceSDK-Swift.h"
+    requires objc
+}

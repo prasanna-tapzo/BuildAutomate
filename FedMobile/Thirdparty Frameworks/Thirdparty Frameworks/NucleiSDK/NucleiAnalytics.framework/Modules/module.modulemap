@@ -1,0 +1,11 @@
+framework module NucleiAnalytics {
+  umbrella header "NucleiAnalytics.h"
+
+  export *
+  module * { export * }
+}
+
+module NucleiAnalytics.Swift {
+    header "NucleiAnalytics-Swift.h"
+    requires objc
+}

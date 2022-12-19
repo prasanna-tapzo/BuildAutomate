@@ -1,0 +1,11 @@
+framework module Recharge {
+  umbrella header "Recharge.h"
+
+  export *
+  module * { export * }
+}
+
+module Recharge.Swift {
+    header "Recharge-Swift.h"
+    requires objc
+}

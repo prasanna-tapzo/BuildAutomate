@@ -1,0 +1,29 @@
+{
+  "ackStatus": "00000",
+  "ackMessage": "SUCCESS",
+  "errors": null,
+  "error": null,
+  "atmBranchDetailDTO": [
+    {
+      "ackStatus": null,
+      "ackMessage": null,
+      "errors": null,
+      "error": null,
+      "branchATMNo": "9001",
+      "branchATMName": "Demo Bank",
+      "branchATMAddress": "Harihar Chamber, Near Boring road chauraha, Patna- 800001",
+      "branchATMPhoneNo": null,
+      "area": "East",
+      "city": "Patna",
+      "latitude": 13.047192,
+      "longitude": 80.235410,
+      "type1": "0",
+      "poNo": "800001",
+      "atmType": "Standalone",
+      "acceptCashDeposit": "YES",
+      "phoneNo": "011-450-1840",
+      "workingHours": "9AM TO 6.30 PM",
+      "branchifsccode": "ICI00010095"
+    }
+  ]
+}

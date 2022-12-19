@@ -1,0 +1,96 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MarketplaceSDK
+import Alamofire
+import CryptoSwift
+import Foundation
+import ImageIO
+import Lottie
+@_exported import MarketplaceSDK
+import Swift
+import UIKit
+import WebKit
+@objc public protocol MarketplaceDelegate {
+  @objc optional func initMarketplace(nav: UIKit.UINavigationController)
+  @objc func onMarketplaceHeartbeat()
+  @objc func onPaymentInit(paymentData: [Swift.String : Swift.String])
+  @objc optional func onPaymentFinish(paymentData: [Swift.String : Swift.String])
+  @objc func onMPINInit(mpinData: [Swift.String : Swift.String])
+  @objc optional func onMPINFinish(status: Swift.String, mpinData: [Swift.String : Swift.String])
+}
+public class SDKObjects {
+  public var marketplaceDelegate: MarketplaceSDK.MarketplaceDelegate?
+  weak public var paymentDelegate: MarketplaceSDK.PaymentDelegate?
+  public static var paymentViewController: UIKit.UIViewController?
+  public static var mpinViewController: UIKit.UIViewController?
+  public static var paymentData: [Swift.String : Swift.String]?
+  public static var mpinData: [Swift.String : Swift.String]?
+  public init()
+  public func marketplaceHeartbeat()
+  public func onMarketplaceCallback(nav: UIKit.UINavigationController)
+  public func setUserDetails(userDetails: [Swift.String : Swift.String])
+  public func setMarketplaceDelegate(delegate: MarketplaceSDK.MarketplaceDelegate)
+  public func onPaymentInitCallback(paymentData: [Swift.String : Swift.String])
+  public func onPaymentFinishCallback(paymentData: [Swift.String : Swift.String])
+  public func onMPINInitCallback(mpinData: [Swift.String : Swift.String])
+  public func onMPINFinishCallback(status: Swift.String, mpinData: [Swift.String : Swift.String])
+  public func setSDKEnvironment(env: MarketplaceSDK.SDKEnvironment)
+  @objc deinit
+}
+public func loadMyFonts()
+public enum SDKEnvironment {
+  case DEV
+  case UAT
+  case PROD_DR
+  case PROD_DC
+  public static func == (a: MarketplaceSDK.SDKEnvironment, b: MarketplaceSDK.SDKEnvironment) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+extension UIImage {
+  public class func gifImageWithData(_ data: Foundation.Data) -> UIKit.UIImage?
+  public class func gifImageWithURL(_ gifUrl: Swift.String) -> UIKit.UIImage?
+  public class func gifImageWithName(_ name: Swift.String) -> UIKit.UIImage?
+}
+@objc public protocol PaymentDelegate {
+  @objc optional func onPaymentFinish(nav: UIKit.UINavigationController)
+}
+@objc @_inheritsConvenienceInitializers public class HomeViewController : UIKit.UIViewController, UIKit.UITableViewDelegate, UIKit.UITableViewDataSource, UIKit.UICollectionViewDelegate, UIKit.UICollectionViewDataSource, UIKit.UICollectionViewDelegateFlowLayout {
+  @objc override dynamic public func viewDidLoad()
+  @objc public func invokeHeartbeat()
+  @objc override dynamic public func viewDidLayoutSubviews()
+  @objc public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @objc public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @objc public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @objc public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @objc public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @objc public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+  @objc public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGSize
+  @objc public func collectionView(_ collectionView: UIKit.UICollectionView, willDisplay cell: UIKit.UICollectionViewCell, forItemAt indexPath: Foundation.IndexPath)
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public struct UserDetailsModel {
+  public static var userDetails: [Swift.String : Swift.String]?
+  public static var merchantName: Swift.String?
+  public static var merchantId: Swift.String?
+  public static var merchantLogoString: Swift.String?
+  public static var purchaseId: Swift.String?
+  public static var purchaseToken: Swift.String?
+  public static var transactionId: Swift.String?
+  public static var navigationController: UIKit.UINavigationController?
+  public static var marketplaceDelegate: MarketplaceSDK.MarketplaceDelegate?
+  public static var mpinStatus: Swift.String!
+}
+public struct DisclaimerValuesModel {
+  public static var shareCustomerId: Swift.String?
+  public static var shareEmailId: Swift.String?
+  public static var shareMobileNo: Swift.String?
+}
+public struct APIUrls {
+}
+extension MarketplaceSDK.SDKEnvironment : Swift.Equatable {}
+extension MarketplaceSDK.SDKEnvironment : Swift.Hashable {}

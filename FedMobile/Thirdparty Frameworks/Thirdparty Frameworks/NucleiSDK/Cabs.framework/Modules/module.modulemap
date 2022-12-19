@@ -1,0 +1,11 @@
+framework module Cabs {
+  umbrella header "Cabs.h"
+
+  export *
+  module * { export * }
+}
+
+module Cabs.Swift {
+    header "Cabs-Swift.h"
+    requires objc
+}

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="143" height="120" viewBox="0 0 143 120">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-137 -358) translate(137 358)">
+                    <path fill="#E5E5EB" fill-rule="nonzero" d="M84.142 108.201c29.12-21.592 46.274-22.431 55.903-45.449C149.675 39.735 122.983 0 76.375 0 29.768 0-4.279 30.553.436 76.832c4.715 46.278 54.585 52.96 83.706 31.369z"/>
+                    <path stroke="#8F1538" stroke-linejoin="round" d="M126.144 75.862L131.66 75.863 131.662 81.379 126.146 81.378z" opacity=".6" transform="rotate(45 128.903 78.62)"/>
+                    <path stroke="#70BF47" stroke-linejoin="round" stroke-width=".8" d="M8.089 61.791L11.684 61.791 11.684 65.373 8.089 65.373z" opacity=".6"/>
+                    <ellipse cx="30.557" cy="103.881" stroke="#5B45C8" stroke-linejoin="round" stroke-width=".8" opacity=".6" rx="1.797" ry="1.791"/>
+                    <ellipse cx="121.778" cy="22.836" stroke="#70BF47" stroke-linejoin="round" opacity=".6" rx="3.146" ry="3.134"/>
+                    <path stroke="#904800" stroke-linejoin="round" d="M6.203 91.725L8.962 97.242 3.446 97.24z" opacity=".6" transform="rotate(45 6.204 94.483)"/>
+                    <path stroke="#6D6D6D" stroke-linejoin="round" d="M138.854 34.03L142 40.299 135.709 40.299z" opacity=".6"/>
+                    <path stroke="#6D6D6D" stroke-linejoin="round" stroke-width=".8" d="M69.204 6.269L72.798 6.268 72.796 9.85 69.202 9.852z" opacity=".6" transform="rotate(9 71 8.06)"/>
+                    <circle cx="40" cy="9" r="2" stroke="#8F1538" stroke-linejoin="round" opacity=".6"/>
+                </g>
+                <g>
+                    <path fill="#6D6D6D" fill-rule="nonzero" d="M60.5 8.8h-1.1V3.3c0-1.82-1.48-3.3-3.3-3.3h-2.2c-1.82 0-3.3 1.48-3.3 3.3v5.5H15.4V3.3c0-1.82-1.48-3.3-3.3-3.3H9.9C8.08 0 6.6 1.48 6.6 3.3v5.5H5.5C2.467 8.8 0 11.267 0 14.3v46.2C0 63.533 2.467 66 5.5 66h55c3.033 0 5.5-2.467 5.5-5.5V14.3c0-3.033-2.467-5.5-5.5-5.5zm-7.7-5.5c0-.607.493-1.1 1.1-1.1h2.2c.607 0 1.1.493 1.1 1.1v11c0 .607-.493 1.1-1.1 1.1h-2.2c-.607 0-1.1-.493-1.1-1.1v-11zm-44 0c0-.607.493-1.1 1.1-1.1h2.2c.607 0 1.1.493 1.1 1.1v11c0 .607-.493 1.1-1.1 1.1H9.9c-.607 0-1.1-.493-1.1-1.1v-11zM5.5 11h1.1v3.3c0 1.82 1.48 3.3 3.3 3.3h2.2c1.82 0 3.3-1.48 3.3-3.3V11h35.2v3.3c0 1.82 1.48 3.3 3.3 3.3h2.2c1.82 0 3.3-1.48 3.3-3.3V11h1.1c1.82 0 3.3 1.48 3.3 3.3v12.1H2.2V14.3c0-1.82 1.48-3.3 3.3-3.3zm55 52.8h-55c-1.82 0-3.3-1.48-3.3-3.3V28.6h61.6v31.9c0 1.82-1.48 3.3-3.3 3.3z" transform="translate(-137 -358) translate(137 358) translate(37 28)"/>
+                    <path fill="#6D6D6D" fill-rule="nonzero" d="M20.9 23.1h24.2c.608 0 1.1-.492 1.1-1.1v-6.6c0-.608-.492-1.1-1.1-1.1H20.9c-.608 0-1.1.492-1.1 1.1V22c0 .608.492 1.1 1.1 1.1zm1.1-6.6h22v4.4H22v-4.4z" transform="translate(-137 -358) translate(137 358) translate(37 28)"/>
+                    <g stroke="#E94441" stroke-linecap="square" stroke-width="2">
+                        <path d="M1.5 7.5L8.667 1.715" transform="translate(-137 -358) translate(137 358) translate(37 28) translate(7 32) rotate(-6 5 4.5)"/>
+                        <path d="M1.5 7.5L8.667 1.715" transform="translate(-137 -358) translate(137 358) translate(37 28) translate(7 32) rotate(83.907 5 4.5)"/>
+                    </g>
+                    <g stroke="#E94441" stroke-linecap="square" stroke-width="2">
+                        <path d="M1.5 7.5L8.667 1.715" transform="translate(-137 -358) translate(137 358) translate(37 28) translate(7 48) rotate(-6 5 4.5)"/>
+                        <path d="M1.5 7.5L8.667 1.715" transform="translate(-137 -358) translate(137 358) translate(37 28) translate(7 48) rotate(83.907 5 4.5)"/>
+                    </g>
+                    <g stroke="#E94441" stroke-linecap="square" stroke-width="2">
+                        <path d="M1.5 7.5L8.667 1.715" transform="translate(-137 -358) translate(137 358) translate(37 28) translate(22 32) rotate(-6 5 4.5)"/>
+                        <path d="M1.5 7.5L8.667 1.715" transform="translate(-137 -358) translate(137 358) translate(37 28) translate(22 32) rotate(83.907 5 4.5)"/>
+                    </g>
+                    <g stroke="#E94441" stroke-linecap="square" stroke-width="2">
+                        <path d="M1.5 7.5L8.667 1.715" transform="translate(-137 -358) translate(137 358) translate(37 28) translate(22 48) rotate(-6 5 4.5)"/>
+                        <path d="M1.5 7.5L8.667 1.715" transform="translate(-137 -358) translate(137 358) translate(37 28) translate(22 48) rotate(83.907 5 4.5)"/>
+                    </g>
+                    <g stroke="#E94441" stroke-linecap="square" stroke-width="2">
+                        <path d="M1.5 7.5L8.667 1.715" transform="translate(-137 -358) translate(137 358) translate(37 28) translate(36 32) rotate(-6 5 4.5)"/>
+                        <path d="M1.5 7.5L8.667 1.715" transform="translate(-137 -358) translate(137 358) translate(37 28) translate(36 32) rotate(83.907 5 4.5)"/>
+                    </g>
+                    <g stroke="#E94441" stroke-linecap="square" stroke-width="2">
+                        <path d="M1.5 7.5L8.667 1.715" transform="translate(-137 -358) translate(137 358) translate(37 28) translate(36 48) rotate(-6 5 4.5)"/>
+                        <path d="M1.5 7.5L8.667 1.715" transform="translate(-137 -358) translate(137 358) translate(37 28) translate(36 48) rotate(83.907 5 4.5)"/>
+                    </g>
+                    <g stroke="#E94441" stroke-linecap="square" stroke-width="2">
+                        <path d="M1.5 7.5L8.667 1.715" transform="translate(-137 -358) translate(137 358) translate(37 28) translate(51 32) rotate(-6 5 4.5)"/>
+                        <path d="M1.5 7.5L8.667 1.715" transform="translate(-137 -358) translate(137 358) translate(37 28) translate(51 32) rotate(83.907 5 4.5)"/>
+                    </g>
+                    <g stroke="#E94441" stroke-linecap="square" stroke-width="2">
+                        <path d="M1.5 7.5L8.667 1.715" transform="translate(-137 -358) translate(137 358) translate(37 28) translate(51 48) rotate(-6 5 4.5)"/>
+                        <path d="M1.5 7.5L8.667 1.715" transform="translate(-137 -358) translate(137 358) translate(37 28) translate(51 48) rotate(83.907 5 4.5)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

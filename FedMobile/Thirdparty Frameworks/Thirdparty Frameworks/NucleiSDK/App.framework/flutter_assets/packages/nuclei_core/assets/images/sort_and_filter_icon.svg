@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="14" viewBox="0 0 15 14">
+    <g fill="none" fill-rule="evenodd" stroke="#FFF" stroke-width="1.5">
+        <path d="M0 1.75L8.125 1.75M10.625 1.75L15 1.75M10.313 0L10.313 3.5"/>
+        <path d="M6.875 6.75L15 6.75" transform="matrix(-1 0 0 1 21.875 0)"/>
+        <path d="M0 6.75L4.375 6.75" transform="matrix(-1 0 0 1 4.375 0)"/>
+        <path d="M4.688 5L4.688 8.5" transform="matrix(-1 0 0 1 9.375 0)"/>
+        <path d="M8.125 11.75L15 11.75" transform="matrix(-1 0 0 1 23.125 0)"/>
+        <path d="M0 11.75L6.25 11.75" transform="matrix(-1 0 0 1 6.25 0)"/>
+        <path d="M8.438 10L8.438 13.5" transform="matrix(-1 0 0 1 16.875 0)"/>
+    </g>
+</svg>
