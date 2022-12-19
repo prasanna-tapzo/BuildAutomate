@@ -1,0 +1,11 @@
+framework module Donations {
+  umbrella header "Donations.h"
+
+  export *
+  module * { export * }
+}
+
+module Donations.Swift {
+    header "Donations-Swift.h"
+    requires objc
+}
