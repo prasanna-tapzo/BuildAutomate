@@ -20,7 +20,7 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ secrets.PAT }}
       with:
-        source_file: 'Thirdparty Frameworks'
+        source_file: 'Thirdparty Frameworks/'
         destination_repo: 'prasanna-tapzo/BuildAutomate'
         destination_folder: 'BuildAutomate/Thirdparty Frameworks/'
         user_email: 'prasanna.aithal@gonuclei.com'
