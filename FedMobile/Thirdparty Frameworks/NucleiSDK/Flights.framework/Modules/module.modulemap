@@ -1,0 +1,11 @@
+framework module Flights {
+  umbrella header "Flights.h"
+
+  export *
+  module * { export * }
+}
+
+module Flights.Swift {
+    header "Flights-Swift.h"
+    requires objc
+}

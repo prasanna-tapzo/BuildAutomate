@@ -1,0 +1,11 @@
+framework module BillPayments {
+  umbrella header "BillPayments.h"
+
+  export *
+  module * { export * }
+}
+
+module BillPayments.Swift {
+    header "BillPayments-Swift.h"
+    requires objc
+}

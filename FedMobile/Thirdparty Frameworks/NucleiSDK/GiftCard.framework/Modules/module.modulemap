@@ -1,0 +1,11 @@
+framework module GiftCard {
+  umbrella header "GiftCard.h"
+
+  export *
+  module * { export * }
+}
+
+module GiftCard.Swift {
+    header "GiftCard-Swift.h"
+    requires objc
+}

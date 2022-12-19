@@ -1,0 +1,13 @@
+{
+  "ackStatus": "00000",
+  "ackMessage": "SUCCESS",
+  "errorCode": null,
+  "errorDesc": null,
+  "contactDetails": {
+
+              "contactCentreNumber":"XXX-XXXXXX",
+              "email":"ABC@JANA.COM",
+              "missedCall":"XXX-XXXXXX",
+              "chatWith":"Lakshmi"
+  			}
+}

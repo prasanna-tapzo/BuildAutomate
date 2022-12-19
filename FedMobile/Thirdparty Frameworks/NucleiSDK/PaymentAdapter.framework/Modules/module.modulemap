@@ -1,0 +1,11 @@
+framework module PaymentAdapter {
+  umbrella header "PaymentAdapter.h"
+
+  export *
+  module * { export * }
+}
+
+module PaymentAdapter.Swift {
+    header "PaymentAdapter-Swift.h"
+    requires objc
+}

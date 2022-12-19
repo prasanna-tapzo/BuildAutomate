@@ -1,0 +1,11 @@
+framework module CoreAdapter {
+  umbrella header "CoreAdapter.h"
+
+  export *
+  module * { export * }
+}
+
+module CoreAdapter.Swift {
+    header "CoreAdapter-Swift.h"
+    requires objc
+}
